@@ -1,0 +1,1589 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   admin/config/config.ini.php
+#	new file:   admin/control/account.php
+#	new file:   admin/control/activity.php
+#	new file:   admin/control/admin.php
+#	new file:   admin/control/admin_log.php
+#	new file:   admin/control/adv.php
+#	new file:   admin/control/article.php
+#	new file:   admin/control/article_class.php
+#	new file:   admin/control/bill.php
+#	new file:   admin/control/brand.php
+#	new file:   admin/control/cache.php
+#	new file:   admin/control/chat_log.php
+#	new file:   admin/control/circle_cache.php
+#	new file:   admin/control/circle_class.php
+#	new file:   admin/control/circle_inform.php
+#	new file:   admin/control/circle_manage.php
+#	new file:   admin/control/circle_member.php
+#	new file:   admin/control/circle_memberlevel.php
+#	new file:   admin/control/circle_setting.php
+#	new file:   admin/control/circle_theme.php
+#	new file:   admin/control/cms_article.php
+#	new file:   admin/control/cms_article_class.php
+#	new file:   admin/control/cms_base.php
+#	new file:   admin/control/cms_comment.php
+#	new file:   admin/control/cms_index.php
+#	new file:   admin/control/cms_manage.php
+#	new file:   admin/control/cms_navigation.php
+#	new file:   admin/control/cms_picture.php
+#	new file:   admin/control/cms_picture_class.php
+#	new file:   admin/control/cms_special.php
+#	new file:   admin/control/cms_tag.php
+#	new file:   admin/control/common.php
+#	new file:   admin/control/complain.php
+#	new file:   admin/control/consulting.php
+#	new file:   admin/control/control.php
+#	new file:   admin/control/dashboard.php
+#	new file:   admin/control/db.php
+#	new file:   admin/control/delivery.php
+#	new file:   admin/control/document.php
+#	new file:   admin/control/domain.php
+#	new file:   admin/control/evaluate.php
+#	new file:   admin/control/exppoints.php
+#	new file:   admin/control/express.php
+#	new file:   admin/control/flea.php
+#	new file:   admin/control/flea_class.php
+#	new file:   admin/control/flea_class_index.php
+#	new file:   admin/control/flea_index.php
+#	new file:   admin/control/flea_region.php
+#	new file:   admin/control/goods.php
+#	new file:   admin/control/goods_album.php
+#	new file:   admin/control/goods_class.php
+#	new file:   admin/control/goods_class1.php
+#	new file:   admin/control/groupbuy.php
+#	new file:   admin/control/help_store.php
+#	new file:   admin/control/index.php
+#	new file:   admin/control/inform.php
+#	new file:   admin/control/live_area.php
+#	new file:   admin/control/live_class.php
+#	new file:   admin/control/live_groupbuy.php
+#	new file:   admin/control/live_order.php
+#	new file:   admin/control/live_setting.php
+#	new file:   admin/control/login.php
+#	new file:   admin/control/lottery.php
+#	new file:   admin/control/mall_consult.php
+#	new file:   admin/control/mb_ad.php
+#	new file:   admin/control/mb_app.php
+#	new file:   admin/control/mb_category.php
+#	new file:   admin/control/mb_feedback.php
+#	new file:   admin/control/mb_home.php
+#	new file:   admin/control/mb_index.php
+#	new file:   admin/control/mb_payment.php
+#	new file:   admin/control/mb_special.php
+#	new file:   admin/control/member.php
+#	new file:   admin/control/member_grade.php
+#	new file:   admin/control/message.php
+#	new file:   admin/control/microshop.php
+#	new file:   admin/control/navigation.php
+#	new file:   admin/control/notice.php
+#	new file:   admin/control/offpay_area.php
+#	new file:   admin/control/operation.php
+#	new file:   admin/control/order.php
+#	new file:   admin/control/ownshop.php
+#	new file:   admin/control/payment.php
+#	new file:   admin/control/pd_gift_card.php
+#	new file:   admin/control/perform.php
+#	new file:   admin/control/pointorder.php
+#	new file:   admin/control/pointprod.php
+#	new file:   admin/control/points.php
+#	new file:   admin/control/predeposit.php
+#	new file:   admin/control/promotion_booth.php
+#	new file:   admin/control/promotion_bundling.php
+#	new file:   admin/control/promotion_mansong.php
+#	new file:   admin/control/promotion_xianshi.php
+#	new file:   admin/control/rec_position.php
+#	new file:   admin/control/rechargecard.php
+#	new file:   admin/control/refund.php
+#	new file:   admin/control/return.php
+#	new file:   admin/control/search.php
+#	new file:   admin/control/seccode.php
+#	new file:   admin/control/setting.php
+#	new file:   admin/control/show_pics.php
+#	new file:   admin/control/sns_malbum.php
+#	new file:   admin/control/sns_member.php
+#	new file:   admin/control/sns_sharesetting.php
+#	new file:   admin/control/sns_strace.php
+#	new file:   admin/control/snstrace.php
+#	new file:   admin/control/spec.php
+#	new file:   admin/control/stat_aftersale.php
+#	new file:   admin/control/stat_general.php
+#	new file:   admin/control/stat_goods.php
+#	new file:   admin/control/stat_industry.php
+#	new file:   admin/control/stat_marketing.php
+#	new file:   admin/control/stat_member.php
+#	new file:   admin/control/stat_store.php
+#	new file:   admin/control/stat_trade.php
+#	new file:   admin/control/store.php
+#	new file:   admin/control/store_class.php
+#	new file:   admin/control/store_grade.php
+#	new file:   admin/control/store_joinin.php
+#	new file:   admin/control/type.php
+#	new file:   admin/control/upload.php
+#	new file:   admin/control/voucher.php
+#	new file:   admin/control/vr_bill.php
+#	new file:   admin/control/vr_groupbuy.php
+#	new file:   admin/control/vr_order.php
+#	new file:   admin/control/vr_refund.php
+#	new file:   admin/control/waybill.php
+#	new file:   admin/control/web_api.php
+#	new file:   admin/control/web_config.php
+#	new file:   admin/control/web_special.php
+#	new file:   admin/control/wxpay.php
+#	new file:   admin/framework/libraries/process.class.php
+#	new file:   admin/include/index.html
+#	new file:   admin/include/limit.php
+#	new file:   admin/include/menu.php
+#	new file:   admin/include/menu.php0805
+#	new file:   admin/index.php
+#	new file:   admin/language/index.html
+#	new file:   admin/language/zh/activity.php
+#	new file:   admin/language/zh/admin.php
+#	new file:   admin/language/zh/admin_common.php
+#	new file:   admin/language/zh/admin_log.php
+#	new file:   admin/language/zh/adv.php
+#	new file:   admin/language/zh/article.php
+#	new file:   admin/language/zh/article_class.php
+#	new file:   admin/language/zh/brand.php
+#	new file:   admin/language/zh/cache.php
+#	new file:   admin/language/zh/circle.php
+#	new file:   admin/language/zh/cms.php
+#	new file:   admin/language/zh/common.php
+#	new file:   admin/language/zh/complain.php
+#	new file:   admin/language/zh/consulting.php
+#	new file:   admin/language/zh/core_lang_index.php
+#	new file:   admin/language/zh/dashboard.php
+#	new file:   admin/language/zh/db.php
+#	new file:   admin/language/zh/document.php
+#	new file:   admin/language/zh/evaluate.php
+#	new file:   admin/language/zh/export.php
+#	new file:   admin/language/zh/express.php
+#	new file:   admin/language/zh/goods.php
+#	new file:   admin/language/zh/goods_album.php
+#	new file:   admin/language/zh/goods_class.php
+#	new file:   admin/language/zh/groupbuy.php
+#	new file:   admin/language/zh/index.html
+#	new file:   admin/language/zh/index.php
+#	new file:   admin/language/zh/inform.php
+#	new file:   admin/language/zh/layout.php
+#	new file:   admin/language/zh/link.php
+#	new file:   admin/language/zh/login.php
+#	new file:   admin/language/zh/member.php
+#	new file:   admin/language/zh/message.php
+#	new file:   admin/language/zh/microshop.php
+#	new file:   admin/language/zh/mobile.php
+#	new file:   admin/language/zh/model_lang_index.php
+#	new file:   admin/language/zh/navigation.php
+#	new file:   admin/language/zh/notice.php
+#	new file:   admin/language/zh/permission.php
+#	new file:   admin/language/zh/pointorder.php
+#	new file:   admin/language/zh/pointprod.php
+#	new file:   admin/language/zh/points.php
+#	new file:   admin/language/zh/predeposit.php
+#	new file:   admin/language/zh/promotion_bundling.php
+#	new file:   admin/language/zh/promotion_mansong.php
+#	new file:   admin/language/zh/promotion_xianshi.php
+#	new file:   admin/language/zh/rec_position.php
+#	new file:   admin/language/zh/region.php
+#	new file:   admin/language/zh/setting.php
+#	new file:   admin/language/zh/share_link.php
+#	new file:   admin/language/zh/sns_malbum.php
+#	new file:   admin/language/zh/sns_member.php
+#	new file:   admin/language/zh/sns_sharesetting.php
+#	new file:   admin/language/zh/sns_strace.php
+#	new file:   admin/language/zh/snstrace.php
+#	new file:   admin/language/zh/spec.php
+#	new file:   admin/language/zh/store.php
+#	new file:   admin/language/zh/store_class.php
+#	new file:   admin/language/zh/store_grade.php
+#	new file:   admin/language/zh/trade.php
+#	new file:   admin/language/zh/type.php
+#	new file:   admin/language/zh/voucher.php
+#	new file:   admin/language/zh/web_config.php
+#	new file:   admin/language/zh_cn/activity.php
+#	new file:   admin/language/zh_cn/admin.php
+#	new file:   admin/language/zh_cn/admin_common.php
+#	new file:   admin/language/zh_cn/admin_log.php
+#	new file:   admin/language/zh_cn/adv.php
+#	new file:   admin/language/zh_cn/article.php
+#	new file:   admin/language/zh_cn/article_class.php
+#	new file:   admin/language/zh_cn/brand.php
+#	new file:   admin/language/zh_cn/cache.php
+#	new file:   admin/language/zh_cn/circle.php
+#	new file:   admin/language/zh_cn/circle_inform.php
+#	new file:   admin/language/zh_cn/circle_memberlevel.php
+#	new file:   admin/language/zh_cn/cms.php
+#	new file:   admin/language/zh_cn/common.php
+#	new file:   admin/language/zh_cn/complain.php
+#	new file:   admin/language/zh_cn/consulting.php
+#	new file:   admin/language/zh_cn/core_lang_index.php
+#	new file:   admin/language/zh_cn/dashboard.php
+#	new file:   admin/language/zh_cn/db.php
+#	new file:   admin/language/zh_cn/document.php
+#	new file:   admin/language/zh_cn/evaluate.php
+#	new file:   admin/language/zh_cn/export.php
+#	new file:   admin/language/zh_cn/express.php
+#	new file:   admin/language/zh_cn/flea_class.php
+#	new file:   admin/language/zh_cn/flea_index.php
+#	new file:   admin/language/zh_cn/flea_index_setting.php
+#	new file:   admin/language/zh_cn/flea_region.php
+#	new file:   admin/language/zh_cn/goods.php
+#	new file:   admin/language/zh_cn/goods_album.php
+#	new file:   admin/language/zh_cn/goods_class.php
+#	new file:   admin/language/zh_cn/groupbuy.php
+#	new file:   admin/language/zh_cn/index.html
+#	new file:   admin/language/zh_cn/index.php
+#	new file:   admin/language/zh_cn/inform.php
+#	new file:   admin/language/zh_cn/layout.php
+#	new file:   admin/language/zh_cn/live.php
+#	new file:   admin/language/zh_cn/login.php
+#	new file:   admin/language/zh_cn/login.php.bak
+#	new file:   admin/language/zh_cn/member.php
+#	new file:   admin/language/zh_cn/message.php
+#	new file:   admin/language/zh_cn/microshop.php
+#	new file:   admin/language/zh_cn/mobile.php
+#	new file:   admin/language/zh_cn/model_lang_index.php
+#	new file:   admin/language/zh_cn/navigation.php
+#	new file:   admin/language/zh_cn/notice.php
+#	new file:   admin/language/zh_cn/payment.php
+#	new file:   admin/language/zh_cn/permission.php
+#	new file:   admin/language/zh_cn/pointorder.php
+#	new file:   admin/language/zh_cn/pointprod.php
+#	new file:   admin/language/zh_cn/points.php
+#	new file:   admin/language/zh_cn/predeposit.php
+#	new file:   admin/language/zh_cn/promotion_bundling.php
+#	new file:   admin/language/zh_cn/promotion_mansong.php
+#	new file:   admin/language/zh_cn/promotion_xianshi.php
+#	new file:   admin/language/zh_cn/rec_position.php
+#	new file:   admin/language/zh_cn/refund.php
+#	new file:   admin/language/zh_cn/region.php
+#	new file:   admin/language/zh_cn/setting.php
+#	new file:   admin/language/zh_cn/share_link.php
+#	new file:   admin/language/zh_cn/sns_malbum.php
+#	new file:   admin/language/zh_cn/sns_member.php
+#	new file:   admin/language/zh_cn/sns_sharesetting.php
+#	new file:   admin/language/zh_cn/sns_strace.php
+#	new file:   admin/language/zh_cn/snstrace.php
+#	new file:   admin/language/zh_cn/spec.php
+#	new file:   admin/language/zh_cn/stat.php
+#	new file:   admin/language/zh_cn/store.php
+#	new file:   admin/language/zh_cn/store_class.php
+#	new file:   admin/language/zh_cn/store_grade.php
+#	new file:   admin/language/zh_cn/trade.php
+#	new file:   admin/language/zh_cn/type.php
+#	new file:   admin/language/zh_cn/voucher.php
+#	new file:   admin/language/zh_cn/web_config.php
+#	new file:   admin/templates/default/aboutus.php
+#	new file:   admin/templates/default/activity.add.php
+#	new file:   admin/templates/default/activity.edit.php
+#	new file:   admin/templates/default/activity.index.php
+#	new file:   admin/templates/default/activity_detail.index.php
+#	new file:   admin/templates/default/admin.add.php
+#	new file:   admin/templates/default/admin.edit.php
+#	new file:   admin/templates/default/admin.index.php
+#	new file:   admin/templates/default/admin.modifypw.php
+#	new file:   admin/templates/default/admin_log.index.php
+#	new file:   admin/templates/default/adv.edit.php
+#	new file:   admin/templates/default/adv.index.php
+#	new file:   admin/templates/default/adv_add.php
+#	new file:   admin/templates/default/ap_add.php
+#	new file:   admin/templates/default/ap_copy.php
+#	new file:   admin/templates/default/ap_edit.php
+#	new file:   admin/templates/default/ap_manage.php
+#	new file:   admin/templates/default/article.add.php
+#	new file:   admin/templates/default/article.edit.php
+#	new file:   admin/templates/default/article.index.php
+#	new file:   admin/templates/default/article_class.add.php
+#	new file:   admin/templates/default/article_class.edit.php
+#	new file:   admin/templates/default/article_class.index.php
+#	new file:   admin/templates/default/bill.order_bill.php
+#	new file:   admin/templates/default/bill.order_statis.php
+#	new file:   admin/templates/default/bill.pay.php
+#	new file:   admin/templates/default/bill.print.php
+#	new file:   admin/templates/default/bill.show_store_month_order.php
+#	new file:   admin/templates/default/bill_order_bill.show.cost_list.php
+#	new file:   admin/templates/default/bill_order_bill.show.order_list.php
+#	new file:   admin/templates/default/bill_order_bill.show.php
+#	new file:   admin/templates/default/bill_order_bill.show.refund_list.php
+#	new file:   admin/templates/default/bill_order_statis.index.php
+#	new file:   admin/templates/default/bill_order_statis.show.php
+#	new file:   admin/templates/default/brand.add.php
+#	new file:   admin/templates/default/brand.apply.php
+#	new file:   admin/templates/default/brand.edit.php
+#	new file:   admin/templates/default/brand.index.php
+#	new file:   admin/templates/default/cache.clear.php
+#	new file:   admin/templates/default/chat_log.list.php
+#	new file:   admin/templates/default/chat_msg_log.list.php
+#	new file:   admin/templates/default/circle.add.php
+#	new file:   admin/templates/default/circle.choose_master.php
+#	new file:   admin/templates/default/circle.edit.php
+#	new file:   admin/templates/default/circle.list.php
+#	new file:   admin/templates/default/circle.verify.php
+#	new file:   admin/templates/default/circle_class.add.php
+#	new file:   admin/templates/default/circle_class.edit.php
+#	new file:   admin/templates/default/circle_class.list.php
+#	new file:   admin/templates/default/circle_inform.php
+#	new file:   admin/templates/default/circle_member.del.php
+#	new file:   admin/templates/default/circle_member.list.php
+#	new file:   admin/templates/default/circle_memberlevel.php
+#	new file:   admin/templates/default/circle_memberlevel.ref.php
+#	new file:   admin/templates/default/circle_memberlevel.ref_add.php
+#	new file:   admin/templates/default/circle_memberlevel.ref_edit.php
+#	new file:   admin/templates/default/circle_setting.adv.php
+#	new file:   admin/templates/default/circle_setting.exp.php
+#	new file:   admin/templates/default/circle_setting.index.php
+#	new file:   admin/templates/default/circle_setting.sec.php
+#	new file:   admin/templates/default/circle_setting.seo.php
+#	new file:   admin/templates/default/circle_setting.super_add.php
+#	new file:   admin/templates/default/circle_setting.super_list.php
+#	new file:   admin/templates/default/circle_theme.info.php
+#	new file:   admin/templates/default/circle_theme.list.php
+#	new file:   admin/templates/default/circle_theme.reply.php
+#	new file:   admin/templates/default/cms_article.list.php
+#	new file:   admin/templates/default/cms_article_class.add.php
+#	new file:   admin/templates/default/cms_article_class.list.php
+#	new file:   admin/templates/default/cms_comment.manage.php
+#	new file:   admin/templates/default/cms_index.php
+#	new file:   admin/templates/default/cms_index.template.php
+#	new file:   admin/templates/default/cms_index_module.edit.php
+#	new file:   admin/templates/default/cms_index_widget.adv.php
+#	new file:   admin/templates/default/cms_index_widget.article1.php
+#	new file:   admin/templates/default/cms_index_widget.article2.php
+#	new file:   admin/templates/default/cms_index_widget.index.php
+#	new file:   admin/templates/default/cms_index_widget.micro.php
+#	new file:   admin/templates/default/cms_manage.php
+#	new file:   admin/templates/default/cms_module.assembly_article.php
+#	new file:   admin/templates/default/cms_module.assembly_article_image.php
+#	new file:   admin/templates/default/cms_module.assembly_brand.php
+#	new file:   admin/templates/default/cms_module.assembly_flash.php
+#	new file:   admin/templates/default/cms_module.assembly_goods.php
+#	new file:   admin/templates/default/cms_module.assembly_html.php
+#	new file:   admin/templates/default/cms_module.assembly_member.php
+#	new file:   admin/templates/default/cms_module.assembly_picture.php
+#	new file:   admin/templates/default/cms_module.assembly_store.php
+#	new file:   admin/templates/default/cms_module.assembly_title.php
+#	new file:   admin/templates/default/cms_module.template.php
+#	new file:   admin/templates/default/cms_navigation.add.php
+#	new file:   admin/templates/default/cms_navigation.list.php
+#	new file:   admin/templates/default/cms_picture.list.php
+#	new file:   admin/templates/default/cms_picture_class.add.php
+#	new file:   admin/templates/default/cms_picture_class.list.php
+#	new file:   admin/templates/default/cms_special.add.php
+#	new file:   admin/templates/default/cms_special.detail.php
+#	new file:   admin/templates/default/cms_special.list.php
+#	new file:   admin/templates/default/cms_tag.add.php
+#	new file:   admin/templates/default/cms_tag.list.php
+#	new file:   admin/templates/default/cms_widget_article_list.php
+#	new file:   admin/templates/default/cms_widget_brand_list.php
+#	new file:   admin/templates/default/cms_widget_goods_class_list.php
+#	new file:   admin/templates/default/cms_widget_member_list.php
+#	new file:   admin/templates/default/cms_widget_store_list.php
+#	new file:   admin/templates/default/common.pic_cut.php
+#	new file:   admin/templates/default/complain.info.php
+#	new file:   admin/templates/default/complain.list.php
+#	new file:   admin/templates/default/complain.setting.php
+#	new file:   admin/templates/default/complain_appeal.info.php
+#	new file:   admin/templates/default/complain_complain.info.php
+#	new file:   admin/templates/default/complain_finish.info.php
+#	new file:   admin/templates/default/complain_order.info.php
+#	new file:   admin/templates/default/complain_subject.add.php
+#	new file:   admin/templates/default/complain_subject.list.php
+#	new file:   admin/templates/default/complain_talk.info.php
+#	new file:   admin/templates/default/consulting.index.php
+#	new file:   admin/templates/default/consulting.setting.php
+#	new file:   admin/templates/default/consulting.type_add.php
+#	new file:   admin/templates/default/consulting.type_edit.php
+#	new file:   admin/templates/default/consulting.type_list.php
+#	new file:   admin/templates/default/css/font/font-awesome/css/font-awesome-ie7.css
+#	new file:   admin/templates/default/css/font/font-awesome/css/font-awesome-ie7.min.css
+#	new file:   admin/templates/default/css/font/font-awesome/css/font-awesome.css
+#	new file:   admin/templates/default/css/font/font-awesome/css/font-awesome.min.css
+#	new file:   admin/templates/default/css/font/font-awesome/font/FontAwesome.otf
+#	new file:   admin/templates/default/css/font/font-awesome/font/fontawesome-webfont.eot
+#	new file:   admin/templates/default/css/font/font-awesome/font/fontawesome-webfont.svg
+#	new file:   admin/templates/default/css/font/font-awesome/font/fontawesome-webfont.ttf
+#	new file:   admin/templates/default/css/font/font-awesome/font/fontawesome-webfont.woff
+#	new file:   admin/templates/default/css/index.html
+#	new file:   admin/templates/default/css/login.css
+#	new file:   admin/templates/default/css/skin_0.css
+#	new file:   admin/templates/default/css/skin_1.css
+#	new file:   admin/templates/default/db.index.php
+#	new file:   admin/templates/default/db.restore.php
+#	new file:   admin/templates/default/delivery.edit.php
+#	new file:   admin/templates/default/delivery.index.php
+#	new file:   admin/templates/default/delivery.order_list.php
+#	new file:   admin/templates/default/delivery.setting.php
+#	new file:   admin/templates/default/document.edit.php
+#	new file:   admin/templates/default/document.index.php
+#	new file:   admin/templates/default/evalgoods.index.php
+#	new file:   admin/templates/default/evalstore.index.php
+#	new file:   admin/templates/default/export.excel.php
+#	new file:   admin/templates/default/exppoints.log.php
+#	new file:   admin/templates/default/exppoints.setting.php
+#	new file:   admin/templates/default/express.index.php
+#	new file:   admin/templates/default/flea.index.php
+#	new file:   admin/templates/default/flea_class.add.php
+#	new file:   admin/templates/default/flea_class.brach_edit.php
+#	new file:   admin/templates/default/flea_class.edit.php
+#	new file:   admin/templates/default/flea_class.export.php
+#	new file:   admin/templates/default/flea_class.import.php
+#	new file:   admin/templates/default/flea_class.index.php
+#	new file:   admin/templates/default/flea_class_index.php
+#	new file:   admin/templates/default/flea_region.index.php
+#	new file:   admin/templates/default/gadmin.add.php
+#	new file:   admin/templates/default/gadmin.index.php
+#	new file:   admin/templates/default/gadmin.set.php
+#	new file:   admin/templates/default/goods.close.php
+#	new file:   admin/templates/default/goods.close_remark.php
+#	new file:   admin/templates/default/goods.index.php
+#	new file:   admin/templates/default/goods.setting.php
+#	new file:   admin/templates/default/goods.verify.php
+#	new file:   admin/templates/default/goods.verify_remark.php
+#	new file:   admin/templates/default/goods_album.index.php
+#	new file:   admin/templates/default/goods_album.pic_list.php
+#	new file:   admin/templates/default/goods_class.add.php
+#	new file:   admin/templates/default/goods_class.edit.php
+#	new file:   admin/templates/default/goods_class.export.php
+#	new file:   admin/templates/default/goods_class.import.php
+#	new file:   admin/templates/default/goods_class.index.php
+#	new file:   admin/templates/default/goods_class_tag.index.php
+#	new file:   admin/templates/default/groupbuy.list.php
+#	new file:   admin/templates/default/groupbuy.setting.php
+#	new file:   admin/templates/default/groupbuy.slider.php
+#	new file:   admin/templates/default/groupbuy_area.add.php
+#	new file:   admin/templates/default/groupbuy_area.list.php
+#	new file:   admin/templates/default/groupbuy_class.add.php
+#	new file:   admin/templates/default/groupbuy_class.list.php
+#	new file:   admin/templates/default/groupbuy_price.add.php
+#	new file:   admin/templates/default/groupbuy_price.list.php
+#	new file:   admin/templates/default/groupbuy_quota.list.php
+#	new file:   admin/templates/default/help_store.add.php
+#	new file:   admin/templates/default/help_store.edit.php
+#	new file:   admin/templates/default/help_store.list.php
+#	new file:   admin/templates/default/help_store_type.add.php
+#	new file:   admin/templates/default/help_store_type.edit.php
+#	new file:   admin/templates/default/help_store_type.list.php
+#	new file:   admin/templates/default/ie6update.html
+#	new file:   admin/templates/default/images/System.gif
+#	new file:   admin/templates/default/images/background_img.png
+#	new file:   admin/templates/default/images/blog-ico.gif
+#	new file:   admin/templates/default/images/circle_level_bg.png
+#	new file:   admin/templates/default/images/cms_edit_bg.png
+#	new file:   admin/templates/default/images/cms_edit_bg_line.png
+#	new file:   admin/templates/default/images/cut_bg.png
+#	new file:   admin/templates/default/images/default_coupon_image.png
+#	new file:   admin/templates/default/images/default_goods_image.gif
+#	new file:   admin/templates/default/images/default_store_logo.gif
+#	new file:   admin/templates/default/images/default_user_portrait.gif
+#	new file:   admin/templates/default/images/down.gif
+#	new file:   admin/templates/default/images/form_onoff.png
+#	new file:   admin/templates/default/images/ie_update.jpg
+#	new file:   admin/templates/default/images/iframe_bg.png
+#	new file:   admin/templates/default/images/index.html
+#	new file:   admin/templates/default/images/input_date.gif
+#	new file:   admin/templates/default/images/level.gif
+#	new file:   admin/templates/default/images/loading.gif
+#	new file:   admin/templates/default/images/login/bg_1.jpg
+#	new file:   admin/templates/default/images/login/bg_2.jpg
+#	new file:   admin/templates/default/images/login/bg_3.jpg
+#	new file:   admin/templates/default/images/login/bg_4.jpg
+#	new file:   admin/templates/default/images/login/bg_5.jpg
+#	new file:   admin/templates/default/images/login/login_bg_dot.png
+#	new file:   admin/templates/default/images/login/login_code.gif
+#	new file:   admin/templates/default/images/login_bg.png
+#	new file:   admin/templates/default/images/mac/bg_position.gif
+#	new file:   admin/templates/default/images/mac/bg_position.png
+#	new file:   admin/templates/default/images/mac/body_bg.png
+#	new file:   admin/templates/default/images/mac/button_bg.gif
+#	new file:   admin/templates/default/images/mac/button_bg.png
+#	new file:   admin/templates/default/images/mac/fixed_bg.png
+#	new file:   admin/templates/default/images/mac/left.png
+#	new file:   admin/templates/default/images/mac/prompt.gif
+#	new file:   admin/templates/default/images/mac/shopnc_logo.png
+#	new file:   admin/templates/default/images/member/default_image.png
+#	new file:   admin/templates/default/images/member/default_sildeshow.gif
+#	new file:   admin/templates/default/images/mjs-pic.gif
+#	new file:   admin/templates/default/images/mobile/mpat.png
+#	new file:   admin/templates/default/images/ncus_repeat_x.png
+#	new file:   admin/templates/default/images/picture.gif
+#	new file:   admin/templates/default/images/preview.png
+#	new file:   admin/templates/default/images/rate_star.gif
+#	new file:   admin/templates/default/images/rmb.gif
+#	new file:   admin/templates/default/images/sale_banner.jpg
+#	new file:   admin/templates/default/images/select.gif
+#	new file:   admin/templates/default/images/size.gif
+#	new file:   admin/templates/default/images/sky/bg_position.gif
+#	new file:   admin/templates/default/images/sky/body_bg.png
+#	new file:   admin/templates/default/images/sky/button_bg.gif
+#	new file:   admin/templates/default/images/sky/button_bg.png
+#	new file:   admin/templates/default/images/sky/fixed_bg.png
+#	new file:   admin/templates/default/images/sky/left.png
+#	new file:   admin/templates/default/images/sky/prompt.gif
+#	new file:   admin/templates/default/images/sky/shopnc_logo.png
+#	new file:   admin/templates/default/images/tip-yellowsimple_arrows.gif
+#	new file:   admin/templates/default/images/transparent.gif
+#	new file:   admin/templates/default/images/tv-collapsable-last.gif
+#	new file:   admin/templates/default/images/tv-collapsable.gif
+#	new file:   admin/templates/default/images/tv-expandable-last.gif
+#	new file:   admin/templates/default/images/tv-expandable.gif
+#	new file:   admin/templates/default/images/tv-expandable1.gif
+#	new file:   admin/templates/default/images/tv-item-last.gif
+#	new file:   admin/templates/default/images/tv-item-last1.gif
+#	new file:   admin/templates/default/images/tv-item.gif
+#	new file:   admin/templates/default/images/tv-item1.gif
+#	new file:   admin/templates/default/images/up.gif
+#	new file:   admin/templates/default/images/vertline.gif
+#	new file:   admin/templates/default/index.php
+#	new file:   admin/templates/default/inform.handle.php
+#	new file:   admin/templates/default/inform.list.php
+#	new file:   admin/templates/default/inform_handled.list.php
+#	new file:   admin/templates/default/inform_subject.add.php
+#	new file:   admin/templates/default/inform_subject.list.php
+#	new file:   admin/templates/default/inform_subject_type.add.php
+#	new file:   admin/templates/default/inform_subject_type.list.php
+#	new file:   admin/templates/default/layout/blank_layout.php
+#	new file:   admin/templates/default/layout/index.html
+#	new file:   admin/templates/default/layout/index_layout.php
+#	new file:   admin/templates/default/layout/layout.php
+#	new file:   admin/templates/default/layout/login_layout.php
+#	new file:   admin/templates/default/layout/msg_layout.php
+#	new file:   admin/templates/default/layout/null_layout.php
+#	new file:   admin/templates/default/live.groupbuyclass.add.php
+#	new file:   admin/templates/default/live.groupbuyclass.edit.php
+#	new file:   admin/templates/default/live.groupbuyclass.php
+#	new file:   admin/templates/default/live_order.account.php
+#	new file:   admin/templates/default/live_order.detail.php
+#	new file:   admin/templates/default/live_order.list.php
+#	new file:   admin/templates/default/live_setting.index.php
+#	new file:   admin/templates/default/livearea.add.php
+#	new file:   admin/templates/default/livearea.edit.php
+#	new file:   admin/templates/default/livearea.list.php
+#	new file:   admin/templates/default/livedistrict.list.php
+#	new file:   admin/templates/default/livegroupbuy.list.php
+#	new file:   admin/templates/default/livemall.list.php
+#	new file:   admin/templates/default/livevoucher.list.php
+#	new file:   admin/templates/default/login.php
+#	new file:   admin/templates/default/lottery.awards_edit.php
+#	new file:   admin/templates/default/lottery.index.php
+#	new file:   admin/templates/default/lottery.participant_list.php
+#	new file:   admin/templates/default/lottery.win_list.php
+#	new file:   admin/templates/default/mall_consult.index.php
+#	new file:   admin/templates/default/mall_consult.reply.php
+#	new file:   admin/templates/default/mall_consult.type_add.php
+#	new file:   admin/templates/default/mall_consult.type_edit.php
+#	new file:   admin/templates/default/mall_consult.type_list.php
+#	new file:   admin/templates/default/mb_ad.add.php
+#	new file:   admin/templates/default/mb_ad.edit.php
+#	new file:   admin/templates/default/mb_ad.list.php
+#	new file:   admin/templates/default/mb_app.edit.php
+#	new file:   admin/templates/default/mb_category.add.php
+#	new file:   admin/templates/default/mb_category.edit.php
+#	new file:   admin/templates/default/mb_category.list.php
+#	new file:   admin/templates/default/mb_feedback.index.php
+#	new file:   admin/templates/default/mb_home.edit.php
+#	new file:   admin/templates/default/mb_home.list.php
+#	new file:   admin/templates/default/mb_payment.edit.php
+#	new file:   admin/templates/default/mb_payment.list.php
+#	new file:   admin/templates/default/mb_special.list.php
+#	new file:   admin/templates/default/mb_special_item.edit.php
+#	new file:   admin/templates/default/mb_special_item.list.php
+#	new file:   admin/templates/default/mb_special_item.module_adv_list.php
+#	new file:   admin/templates/default/mb_special_item.module_goods.php
+#	new file:   admin/templates/default/mb_special_item.module_home1.php
+#	new file:   admin/templates/default/mb_special_item.module_home2.php
+#	new file:   admin/templates/default/mb_special_item.module_home3.php
+#	new file:   admin/templates/default/mb_special_item.module_home4.php
+#	new file:   admin/templates/default/mb_special_widget.goods.php
+#	new file:   admin/templates/default/member.add.php
+#	new file:   admin/templates/default/member.edit.php
+#	new file:   admin/templates/default/member.grade.php
+#	new file:   admin/templates/default/member.index.php
+#	new file:   admin/templates/default/message.email.php
+#	new file:   admin/templates/default/message.email_tpl.edit.php
+#	new file:   admin/templates/default/message.email_tpl.php
+#	new file:   admin/templates/default/message.member_tpl.edit.php
+#	new file:   admin/templates/default/message.member_tpl.php
+#	new file:   admin/templates/default/message.seller_tpl.edit.php
+#	new file:   admin/templates/default/message.seller_tpl.php
+#	new file:   admin/templates/default/microshop_adv.add.php
+#	new file:   admin/templates/default/microshop_adv.manage.php
+#	new file:   admin/templates/default/microshop_comment.manage.php
+#	new file:   admin/templates/default/microshop_goods.manage.php
+#	new file:   admin/templates/default/microshop_goods_class.add.php
+#	new file:   admin/templates/default/microshop_goods_class.binding.php
+#	new file:   admin/templates/default/microshop_goods_class.list.php
+#	new file:   admin/templates/default/microshop_manage.php
+#	new file:   admin/templates/default/microshop_personal.manage.php
+#	new file:   admin/templates/default/microshop_personal_class.add.php
+#	new file:   admin/templates/default/microshop_personal_class.list.php
+#	new file:   admin/templates/default/microshop_store.add.php
+#	new file:   admin/templates/default/microshop_store.manage.php
+#	new file:   admin/templates/default/msg.php
+#	new file:   admin/templates/default/navigation.add.php
+#	new file:   admin/templates/default/navigation.edit.php
+#	new file:   admin/templates/default/navigation.index.php
+#	new file:   admin/templates/default/notice.add.php
+#	new file:   admin/templates/default/offpay_area.index.php
+#	new file:   admin/templates/default/operation.setting.php
+#	new file:   admin/templates/default/order.index.php
+#	new file:   admin/templates/default/order.receive_pay.php
+#	new file:   admin/templates/default/order.view.php
+#	new file:   admin/templates/default/ownshop.add.php
+#	new file:   admin/templates/default/ownshop.bind_class.php
+#	new file:   admin/templates/default/ownshop.edit.php
+#	new file:   admin/templates/default/ownshop.list.php
+#	new file:   admin/templates/default/payment.edit.php
+#	new file:   admin/templates/default/payment.list.php
+#	new file:   admin/templates/default/payment.system.edit.php
+#	new file:   admin/templates/default/payment.system.php
+#	new file:   admin/templates/default/pd.edit.php
+#	new file:   admin/templates/default/pd.info.php
+#	new file:   admin/templates/default/pd.list.php
+#	new file:   admin/templates/default/pd_cash.list.php
+#	new file:   admin/templates/default/pd_cash.view.php
+#	new file:   admin/templates/default/pd_gift_card_add.php
+#	new file:   admin/templates/default/pd_gift_card_index.php
+#	new file:   admin/templates/default/pd_log.list.php
+#	new file:   admin/templates/default/pointorder.changefee.php
+#	new file:   admin/templates/default/pointorder.info.php
+#	new file:   admin/templates/default/pointorder.list.php
+#	new file:   admin/templates/default/pointorder.ship.php
+#	new file:   admin/templates/default/pointprod.add.php
+#	new file:   admin/templates/default/pointprod.edit.php
+#	new file:   admin/templates/default/pointprod.list.php
+#	new file:   admin/templates/default/points.add.php
+#	new file:   admin/templates/default/pointslog.php
+#	new file:   admin/templates/default/promotion_booth.setting.php
+#	new file:   admin/templates/default/promotion_booth_goods.list.php
+#	new file:   admin/templates/default/promotion_booth_quota.list.php
+#	new file:   admin/templates/default/promotion_bundling.list.php
+#	new file:   admin/templates/default/promotion_bundling.setting.php
+#	new file:   admin/templates/default/promotion_bundling_quota.list.php
+#	new file:   admin/templates/default/promotion_mansong.detail.php
+#	new file:   admin/templates/default/promotion_mansong.list.php
+#	new file:   admin/templates/default/promotion_mansong.setting.php
+#	new file:   admin/templates/default/promotion_mansong_quota.list.php
+#	new file:   admin/templates/default/promotion_xianshi.detail.php
+#	new file:   admin/templates/default/promotion_xianshi.list.php
+#	new file:   admin/templates/default/promotion_xianshi.setting.php
+#	new file:   admin/templates/default/promotion_xianshi_quota.list.php
+#	new file:   admin/templates/default/rec_position.add.php
+#	new file:   admin/templates/default/rec_position.code.php
+#	new file:   admin/templates/default/rec_position.edit.php
+#	new file:   admin/templates/default/rec_position.index.php
+#	new file:   admin/templates/default/rechargecard.add_card.php
+#	new file:   admin/templates/default/rechargecard.index.php
+#	new file:   admin/templates/default/refund.edit.php
+#	new file:   admin/templates/default/refund.view.php
+#	new file:   admin/templates/default/refund_all.list.php
+#	new file:   admin/templates/default/refund_manage.list.php
+#	new file:   admin/templates/default/refund_reason.add.php
+#	new file:   admin/templates/default/refund_reason.edit.php
+#	new file:   admin/templates/default/refund_reason.list.php
+#	new file:   admin/templates/default/return.edit.php
+#	new file:   admin/templates/default/return.view.php
+#	new file:   admin/templates/default/return_all.list.php
+#	new file:   admin/templates/default/return_manage.list.php
+#	new file:   admin/templates/default/setting.base.php
+#	new file:   admin/templates/default/setting.dump.php
+#	new file:   admin/templates/default/setting.flea_index.php
+#	new file:   admin/templates/default/setting.perform_opt.php
+#	new file:   admin/templates/default/setting.qq_setting.php
+#	new file:   admin/templates/default/setting.search.php
+#	new file:   admin/templates/default/setting.seo_setting.php
+#	new file:   admin/templates/default/setting.sina_setting.php
+#	new file:   admin/templates/default/setting.ucenter_setting.php
+#	new file:   admin/templates/default/setting.website_setting.php
+#	new file:   admin/templates/default/show_pics.php
+#	new file:   admin/templates/default/sns_malbum.classlist.php
+#	new file:   admin/templates/default/sns_malbum.piclist.php
+#	new file:   admin/templates/default/sns_malbum.setting.php
+#	new file:   admin/templates/default/sns_membertag.add.php
+#	new file:   admin/templates/default/sns_membertag.edit.php
+#	new file:   admin/templates/default/sns_membertag.index.php
+#	new file:   admin/templates/default/sns_membertag.memberlist.php
+#	new file:   admin/templates/default/sns_scomment.index.php
+#	new file:   admin/templates/default/sns_strace.index.php
+#	new file:   admin/templates/default/snscomment.index.php
+#	new file:   admin/templates/default/snssharesetting.edit.php
+#	new file:   admin/templates/default/snssharesetting.index.php
+#	new file:   admin/templates/default/snstrace.index.php
+#	new file:   admin/templates/default/spec.add.php
+#	new file:   admin/templates/default/spec.edit.php
+#	new file:   admin/templates/default/spec.index.php
+#	new file:   admin/templates/default/stat.aftersale.evalstore.php
+#	new file:   admin/templates/default/stat.aftersale.refund.php
+#	new file:   admin/templates/default/stat.buying.php
+#	new file:   admin/templates/default/stat.classsale.php
+#	new file:   admin/templates/default/stat.general.index.php
+#	new file:   admin/templates/default/stat.goods.hotgoods.list.php
+#	new file:   admin/templates/default/stat.goods.hotgoods.php
+#	new file:   admin/templates/default/stat.goods.php
+#	new file:   admin/templates/default/stat.goods.prange.php
+#	new file:   admin/templates/default/stat.goodssale.php
+#	new file:   admin/templates/default/stat.income.php
+#	new file:   admin/templates/default/stat.industry.general.php
+#	new file:   admin/templates/default/stat.industry.price.php
+#	new file:   admin/templates/default/stat.industry.rank.php
+#	new file:   admin/templates/default/stat.industry.scale.php
+#	new file:   admin/templates/default/stat.info.memberlist.php
+#	new file:   admin/templates/default/stat.info.storelist.php
+#	new file:   admin/templates/default/stat.linelabels.php
+#	new file:   admin/templates/default/stat.listandorder.php
+#	new file:   admin/templates/default/stat.map.php
+#	new file:   admin/templates/default/stat.marketing.group.php
+#	new file:   admin/templates/default/stat.marketing.grouplist.php
+#	new file:   admin/templates/default/stat.marketing.promotion.php
+#	new file:   admin/templates/default/stat.memberanalyze.info.php
+#	new file:   admin/templates/default/stat.memberanalyze.php
+#	new file:   admin/templates/default/stat.memberarea.php
+#	new file:   admin/templates/default/stat.memberscale.php
+#	new file:   admin/templates/default/stat.newmember.php
+#	new file:   admin/templates/default/stat.newstore.php
+#	new file:   admin/templates/default/stat.predeposit.php
+#	new file:   admin/templates/default/stat.sale.php
+#	new file:   admin/templates/default/stat.setting.orderprange.php
+#	new file:   admin/templates/default/stat.setting.php
+#	new file:   admin/templates/default/stat.store.hotrank.list.php
+#	new file:   admin/templates/default/stat.store.hotrank.php
+#	new file:   admin/templates/default/stat.store.sales.php
+#	new file:   admin/templates/default/stat.store.salestrends.php
+#	new file:   admin/templates/default/stat.storearea.php
+#	new file:   admin/templates/default/stat.storedegree.php
+#	new file:   admin/templates/default/stat.storerank.php
+#	new file:   admin/templates/default/store.add_one.php
+#	new file:   admin/templates/default/store.add_two.php
+#	new file:   admin/templates/default/store.auth.php
+#	new file:   admin/templates/default/store.edit.php
+#	new file:   admin/templates/default/store.index.php
+#	new file:   admin/templates/default/store_bind_class.php
+#	new file:   admin/templates/default/store_bind_class_applay.list.php
+#	new file:   admin/templates/default/store_class.add.php
+#	new file:   admin/templates/default/store_class.edit.php
+#	new file:   admin/templates/default/store_class.export.php
+#	new file:   admin/templates/default/store_class.import.php
+#	new file:   admin/templates/default/store_class.index.php
+#	new file:   admin/templates/default/store_domain.edit.php
+#	new file:   admin/templates/default/store_domain.index.php
+#	new file:   admin/templates/default/store_domain.setting.php
+#	new file:   admin/templates/default/store_grade.add.php
+#	new file:   admin/templates/default/store_grade.edit.php
+#	new file:   admin/templates/default/store_grade.index.php
+#	new file:   admin/templates/default/store_grade_template.edit.php
+#	new file:   admin/templates/default/store_joinin.detail.php
+#	new file:   admin/templates/default/store_joinin.php
+#	new file:   admin/templates/default/store_joinin_help.edit.php
+#	new file:   admin/templates/default/store_joinin_help.php
+#	new file:   admin/templates/default/store_joinin_pic.php
+#	new file:   admin/templates/default/store_reopen.list.php
+#	new file:   admin/templates/default/type.add.php
+#	new file:   admin/templates/default/type.edit.php
+#	new file:   admin/templates/default/type.index.php
+#	new file:   admin/templates/default/type_attr.edit.php
+#	new file:   admin/templates/default/upload.font.php
+#	new file:   admin/templates/default/upload.login.php
+#	new file:   admin/templates/default/upload.param.php
+#	new file:   admin/templates/default/upload.thumb.php
+#	new file:   admin/templates/default/upload.tool.php
+#	new file:   admin/templates/default/voucher.applylist.php
+#	new file:   admin/templates/default/voucher.priceadd.php
+#	new file:   admin/templates/default/voucher.pricelist.php
+#	new file:   admin/templates/default/voucher.quotalist.php
+#	new file:   admin/templates/default/voucher.setting.php
+#	new file:   admin/templates/default/voucher.templateedit.php
+#	new file:   admin/templates/default/voucher.templatelist.php
+#	new file:   admin/templates/default/vr_bill.pay.php
+#	new file:   admin/templates/default/vr_bill.print.php
+#	new file:   admin/templates/default/vr_bill.show.code_list.php
+#	new file:   admin/templates/default/vr_bill_order_bill.show.php
+#	new file:   admin/templates/default/vr_bill_order_statis.index.php
+#	new file:   admin/templates/default/vr_bill_order_statis.show.php
+#	new file:   admin/templates/default/vr_groupbuy.area_add.php
+#	new file:   admin/templates/default/vr_groupbuy.area_edit.php
+#	new file:   admin/templates/default/vr_groupbuy.area_list.php
+#	new file:   admin/templates/default/vr_groupbuy.area_street.php
+#	new file:   admin/templates/default/vr_groupbuy.area_view.php
+#	new file:   admin/templates/default/vr_groupbuy.class_add.php
+#	new file:   admin/templates/default/vr_groupbuy.class_edit.php
+#	new file:   admin/templates/default/vr_groupbuy.class_list.php
+#	new file:   admin/templates/default/vr_order.index.php
+#	new file:   admin/templates/default/vr_order.view.php
+#	new file:   admin/templates/default/vr_refund.edit.php
+#	new file:   admin/templates/default/vr_refund.view.php
+#	new file:   admin/templates/default/vr_refund_all.list.php
+#	new file:   admin/templates/default/vr_refund_manage.list.php
+#	new file:   admin/templates/default/waybill.add.php
+#	new file:   admin/templates/default/waybill.design.php
+#	new file:   admin/templates/default/waybill.list.php
+#	new file:   admin/templates/default/waybill.test.php
+#	new file:   admin/templates/default/web_brand.list.php
+#	new file:   admin/templates/default/web_code.edit.php
+#	new file:   admin/templates/default/web_config.edit.php
+#	new file:   admin/templates/default/web_config.index.php
+#	new file:   admin/templates/default/web_focus.edit.php
+#	new file:   admin/templates/default/web_goods.list.php
+#	new file:   admin/templates/default/web_goods_class.php
+#	new file:   admin/templates/default/web_goods_order.php
+#	new file:   admin/templates/default/web_recommend_pic.php
+#	new file:   admin/templates/default/web_sale.edit.php
+#	new file:   admin/templates/default/web_special.add.php
+#	new file:   admin/templates/default/web_special.detail.php
+#	new file:   admin/templates/default/web_special.list.php
+#	new file:   admin/templates/default/web_upload_focus.php
+#	new file:   admin/templates/default/web_upload_pic.php
+#	new file:   admin/templates/default/web_upload_screen.php
+#	new file:   admin/templates/default/web_upload_slide.php
+#	new file:   admin/templates/default/welcome.php
+#	new file:   "bbs-\350\256\272\345\235\233/admin.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/addons/channel.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/addons/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/addons/zendcheck.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/addons/zendcheck52.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/addons/zendcheck53.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/connect/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/connect/like.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/db/dbbak.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/db/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/google/google.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/google/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/javascript/advertisement.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/javascript/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/javascript/javascript.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/manyou/channel.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/manyou/cloud_channel.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/manyou/getmaillist.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/manyou/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/manyou/my.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/mobile/index.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/remote/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/remote/index.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/remote/mod/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/remote/mod/mod_cron.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/remote/mod/mod_index.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/trade/api_alipay.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/trade/api_tenpay.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/trade/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/api/trade/notify_credit.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/trade/notify_invite.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/trade/notify_trade.php"
+#	new file:   "bbs-\350\256\272\345\235\233/api/uc.php"
+#	new file:   "bbs-\350\256\272\345\235\233/archiver/index.php"
+#	new file:   "bbs-\350\256\272\345\235\233/config/config_global.php"
+#	new file:   "bbs-\350\256\272\345\235\233/config/config_global_default.php"
+#	new file:   "bbs-\350\256\272\345\235\233/config/config_ucenter.php"
+#	new file:   "bbs-\350\256\272\345\235\233/config/config_ucenter_default.php"
+#	new file:   "bbs-\350\256\272\345\235\233/config/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/connect.php"
+#	new file:   "bbs-\350\256\272\345\235\233/cp.php"
+#	new file:   "bbs-\350\256\272\345\235\233/crossdomain.xml"
+#	new file:   "bbs-\350\256\272\345\235\233/data/addonmd5/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/addonmd5/time_3rd_post.template.xml"
+#	new file:   "bbs-\350\256\272\345\235\233/data/attachment/album/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/attachment/common/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/attachment/group/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/attachment/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/attachment/portal/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/attachment/profile/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/attachment/swfupload/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/attachment/temp/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/avatar/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/common_postimg.js"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/common_smilies_var.js"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_common.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_css_diy.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_css_space.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_editor.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_forum_calendar.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_forum_index.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_forum_moderator.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_module.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_rss.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_widthauto.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_1_wysiwyg.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_common.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_css_diy.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_css_space.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_editor.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_forum_calendar.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_forum_index.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_forum_moderator.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_home_space.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_module.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_rss.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_widthauto.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/cache/style_2_wysiwyg.css"
+#	new file:   "bbs-\350\256\272\345\235\233/data/diy/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/diy/template/default/group/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/diy/template/default/group/index.htm.bak"
+#	new file:   "bbs-\350\256\272\345\235\233/data/diy/template/default/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/diy/template/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/download/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/install.lock"
+#	new file:   "bbs-\350\256\272\345\235\233/data/ipdata/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/ipdata/tinyipdata.dat"
+#	new file:   "bbs-\350\256\272\345\235\233/data/log/201411_cplog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/log/201411_errorlog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/log/201411_illegallog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/log/201412_cplog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/log/201412_errorlog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/log/201412_illegallog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/log/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/plugindata/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/sendmail.lock"
+#	new file:   "bbs-\350\256\272\345\235\233/data/stat_setting.xml"
+#	new file:   "bbs-\350\256\272\345\235\233/data/sysdata/cache_adminextend.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/sysdata/cache_domain.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/sysdata/cache_mobile.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/sysdata/cache_pluginsetting.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/sysdata/index.html"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_common_footer.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_common_footer_ajax.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_common_header_ajax.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_common_header_diynav.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_common_header_forum_index.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_common_header_home_space.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_common_header_member_logging.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_common_header_member_register.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_common_showmessage.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_forum_discuzcode.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_member_login.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_member_login_simple.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_2_member_register.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_diy_forum_discuz.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_diy_home_space_notice.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/2_diy_home_space_pm.tpl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/data/template/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/threadcache/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/data/tools.lock"
+#	new file:   "bbs-\350\256\272\345\235\233/data/updatetime.lock"
+#	new file:   "bbs-\350\256\272\345\235\233/favicon.ico"
+#	new file:   "bbs-\350\256\272\345\235\233/forum.php"
+#	new file:   "bbs-\350\256\272\345\235\233/group.php"
+#	new file:   "bbs-\350\256\272\345\235\233/home.php"
+#	new file:   "bbs-\350\256\272\345\235\233/index.php"
+#	new file:   "bbs-\350\256\272\345\235\233/member.php"
+#	new file:   "bbs-\350\256\272\345\235\233/misc.php"
+#	new file:   "bbs-\350\256\272\345\235\233/plugin.php"
+#	new file:   "bbs-\350\256\272\345\235\233/portal.php"
+#	new file:   "bbs-\350\256\272\345\235\233/robots.txt"
+#	new file:   "bbs-\350\256\272\345\235\233/search.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_admingroup.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_adv.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_album.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_albumcategory.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_announce.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_article.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_attach.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_block.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_blockstyle.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_blockxml.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_blog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_blogcategory.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_blogrecyclebin.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_card.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_checktools.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_click.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_cloud.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_cloudaddons.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_collection.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_comment.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_counter.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_credits.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_db.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_district.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_diytemplate.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_doing.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_domain.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_ec.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_faq.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_feed.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_forums.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_founder.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_grid.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_group.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_index.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_login.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_logs.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_magics.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_main.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_makehtml.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_medals.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_members.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_membersplit.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_menu.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_misc.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_moderate.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_nav.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_optimizer.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_patch.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_perm.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_pic.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_plugins.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_portalcategory.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_portalpermission.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_postcomment.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_postsplit.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_prune.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_quickquery.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_recyclebin.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_recyclebinpost.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_report.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_search.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_setting.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_share.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_smilies.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_specialuser.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_styles.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_tag.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_tasks.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_templates.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_threads.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_threadsplit.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_threadtypes.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_tools.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_topic.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_tradelog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_upgrade.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_usergroups.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_usertag.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/admincp_verify.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_connect.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_doctor.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_manyou.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_qqgroup.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_search.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_security.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_siteinfo.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_smilies.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_stats.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_storage.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/cloud_union.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/cloud/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/discuzdb.md5"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/discuzfiles.md5"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/discuzhook.dat"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/menu/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/menu/menu_cloud.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_article.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_blog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_comment.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_doing.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_member.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_picture.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_portalcomment.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_reply.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_share.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/moderate/moderate_thread.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/admincp/robots.txt"
+#	new file:   "bbs-\350\256\272\345\235\233/source/archiver/common/footer.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/archiver/common/header.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/archiver/common/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/archiver/forum/discuz.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/archiver/forum/forumdisplay.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/archiver/forum/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/archiver/forum/viewthread.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/archiver/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_article.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_articlelist.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_blog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_cornerbanner.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_couplebanner.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_custom.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_feed.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_float.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_footerbanner.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_headerbanner.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_intercat.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_interthread.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_search.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_subnavbanner.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_text.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_thread.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/adv_threadlist.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/adv/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_activity.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_activitycity.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_activitynew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_forum.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_thread.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_threaddigest.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_threadhot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_threadnew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_threadspecial.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_threadspecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_threadstick.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_trade.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_tradehot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_tradenew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/block_tradespecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/blockclass.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/forum/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_group.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupactivity.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupactivitycity.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupactivitynew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_grouphot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupnew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupspecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupthread.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupthreadhot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupthreadnew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupthreadspecial.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_groupthreadspecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_grouptrade.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_grouptradehot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_grouptradenew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/block_grouptradespecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/blockclass.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/group/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_adv.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_announcement.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_banner.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_blank.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_forumtree.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_friendlink.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_google.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_line.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_myapp.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_search.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_sort.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_stat.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/block_vedio.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/blockclass.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/commonblock_html.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/html/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/member/block_member.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/member/block_membercredit.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/member/block_membernew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/member/block_memberposts.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/member/block_membershow.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/member/block_memberspecial.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/member/block_memberspecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/member/blockclass.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/member/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/other/block_otherfriendlink.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/other/block_otherstat.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/other/blockclass.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/other/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/block_article.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/block_articlehot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/block_articlenew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/block_articlespecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/block_portalcategory.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/block_topic.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/block_topichot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/block_topicnew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/block_topicspecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/blockclass.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/portal/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_album.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_albumnew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_albumspecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_blog.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_bloghot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_blognew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_blogspecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_doing.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_doinghot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_doingnew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_pic.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_pichot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_picnew.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/block_picspecified.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/blockclass.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/space/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/xml/block_xml.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/xml/blockclass.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/block/xml/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/cache/cache_file.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/cache/cache_sql.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/cache/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_bbcode.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_blockpermission.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_captcha.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_card.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_cexception.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_chinese.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_cloud.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_cloudregister.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_core.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_credit.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_dbexception.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_gifmerge.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_image.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_member.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_membersearch.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_optimizer.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_portalcategory.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_seccode.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_sphinx.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_tag.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_task.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_template.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_xml.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/class_zip.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/db/db_driver_mysql.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/db/db_driver_mysql_slave.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/db/db_driver_mysqli.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/db/db_driver_mysqli_slave.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/db/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_admincp.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_application.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_base.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_block.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_censor.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_container.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_core.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_cron.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_database.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_error.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_extend.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_ftp.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_memory.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_model.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_panel.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_patch.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_process.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_rank.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_session.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_session_close.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_table.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_table_archive.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_upgrade.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/discuz_upload.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/discuz/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_activity.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_allowat.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_base.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_comment.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_debate.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_filter.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_follow.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_image.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_poll.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_replycredit.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_reward.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_rushreply.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_sort.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/extend_thread_trade.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/extend/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/forum/forum_upload.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/forum/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_access.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_antitheft.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_attach.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_dbtool.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_form.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_json.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_log.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_makehtml.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_manyou.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_mobile.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_notification.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_output.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_page.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_pm.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_seccheck.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_seo.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_sysmessage.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/helper_util.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/helper/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/lib/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/lib/lib_tree.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_anonymouspost.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_attachsize.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_bump.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_call.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_checkonline.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_close.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_detector.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_doodle.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_downdateline.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_flicker.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_friendnum.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_gift.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_highlight.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_hot.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_jack.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_money.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_namepost.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_open.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_repent.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_showip.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_stick.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_thunder.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_updateline.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/magic/magic_visit.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/memory/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/memory/memory_driver_apc.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/memory/memory_driver_eaccelerator.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/memory/memory_driver_memcache.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/memory/memory_driver_redis.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/memory/memory_driver_wincache.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/memory/memory_driver_xcache.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/model/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/model/model_forum_post.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/model/model_forum_thread.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_aggid.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_attachexpire.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_attachrefcheck.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_cloudsecurity.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_dbbackup.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_dbbackup_clean.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_editperdel.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_emailregister.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_eviluser.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_filecheck.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_forumstatus.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_inviteregister.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_ipregctrl.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_log.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_loginoutofdate.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_loginpwcheck.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_member.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_newbiespan.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_patch.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_plugin.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_post.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_postqqonly.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_pwlength.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_recyclebin.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_regmaildomain.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_security_daily.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_seo.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_setting.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_thread.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_upgrade.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_usergroup4.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_usergroup5.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_usergroup6.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_usergroup9.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/optimizer/optimizer_white_list.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/seccode/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/secqaa/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/secqaa/secqaa_calc.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/index.htm"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_admincp_cmenu.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_admincp_group.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_admincp_member.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_admincp_perm.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_admincp_session.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_admingroup.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_adminnote.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_advertisement.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_advertisement_custom.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_banned.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_block.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_block_favorite.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_block_item.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_block_item_data.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_block_permission.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_block_pic.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_block_style.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_block_xml.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_cache.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_card.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_card_log.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_card_type.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_credit_log.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_credit_log_field.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_credit_rule.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_credit_rule_log.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_credit_rule_log_field.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_cron.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_district.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_diy_data.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_domain.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_failedip.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/class/table/table_common_failedlogin.php"
+#	new file:   "bbs-\350\256\272\345\235\233/source/discuz_version.php"
+#
+# Untracked files:
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_friendlink.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_grouppm.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_invite.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_magic.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_magiclog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_mailcron.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_mailqueue.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_action_log.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_archive.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_count.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_count_archive.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_crime.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_field_forum.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_field_forum_archive.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_field_home.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_field_home_archive.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_forum_buylog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_grouppm.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_log.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_magic.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_medal.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_newprompt.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_profile.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_profile_archive.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_profile_setting.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_security.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_secwhite.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_stat_field.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_status.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_status_archive.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_validate.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_verify.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_member_verify_info.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_moderate.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_myapp.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_myinvite.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_mytask.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_nav.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_onlinetime.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_optimizer.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_patch.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_plugin.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_pluginvar.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_process.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_regip.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_relatedlink.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_remote_port.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_report.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_searchindex.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_seccheck.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_secquestion.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_session.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_setting.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_smiley.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_sphinxcounter.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_stat.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_statuser.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_style.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_stylevar.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_syscache.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_tag.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_tagitem.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_task.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_taskvar.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_template.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_template_block.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_template_permission.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_uin_black.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_usergroup.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_usergroup_field.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_visit.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_word.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_common_word_type.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_access.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_activity.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_activityapply.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_announcement.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_attachment.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_attachment_exif.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_attachment_n.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_attachment_unused.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_attachtype.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_bbcode.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_collection.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_collectioncomment.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_collectionfollow.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_collectioninvite.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_collectionrelated.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_collectionteamworker.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_collectionthread.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_creditslog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_debate.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_debatepost.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_faq.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_filter_post.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_forum.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_forum_threadtable.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_forumfield.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_forumrecommend.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_groupcreditslog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_groupfield.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_groupinvite.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_grouplevel.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_groupuser.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_hotreply_member.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_hotreply_number.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_imagetype.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_medal.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_medallog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_memberrecommend.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_moderator.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_modwork.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_newthread.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_onlinelist.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_optionvalue.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_order.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_poll.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_polloption.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_polloption_image.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_pollvoter.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_post.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_post_location.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_post_tableid.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_postcache.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_postcomment.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_postlog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_poststick.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_promotion.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_ratelog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_relatedthread.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_replycredit.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_rsscache.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_sofa.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_spacecache.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_statlog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_thread.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadaddviews.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadcalendar.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadclass.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadclosed.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threaddisablepos.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadhidelog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadhot.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadimage.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadlog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadmod.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadpartake.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadpreview.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadprofile.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadprofile_group.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadrush.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_threadtype.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_trade.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_tradecomment.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_tradelog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_typeoption.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_typeoptionvar.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_typevar.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_forum_warning.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_album.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_album_category.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_appcreditlog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_blacklist.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_blog.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_blog_category.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_blogfield.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_class.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_click.php"
+#	"bbs-\350\256\272\345\235\233/source/class/table/table_home_clickuser.php"
+#
+
