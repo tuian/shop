@@ -1,0 +1,6 @@
+[2015-01-04 12:08:10] /shop/index.php?act=login&op=find_password&inajax=1 ( act=login&op=find_password ) 
+ERR: Db Error: Unknown column 'code' in 'field list'
+INSERT  INTO `shopnc_cron` (exetime,exeid,type,code,content) VALUES ('1420344490','4','2','email_touser_find_password','a:2:{i:0;a:4:{s:9:\"site_name\";s:5:\"EMall\";s:8:\"site_url\";s:27:\"http://demo.phphos.com/shop\";s:9:\"user_name\";s:6:\"taobao\";s:12:\"new_password\";s:15:\"QV01G0hgYAjGNGh\";}i:1;b:0;}')
+[2015-01-04 12:08:29] /shop/index.php?act=login&op=find_password&inajax=1 ( act=login&op=find_password ) 
+ERR: Db Error: Unknown column 'code' in 'field list'
+INSERT  INTO `shopnc_cron` (exetime,exeid,type,code,content) VALUES ('1420344509','4','2','email_touser_find_password','a:2:{i:0;a:4:{s:9:\"site_name\";s:5:\"EMall\";s:8:\"site_url\";s:27:\"http://demo.phphos.com/shop\";s:9:\"user_name\";s:6:\"taobao\";s:12:\"new_password\";s:15:\"yu8Xbq7QqyueZD2\";}i:1;b:0;}')

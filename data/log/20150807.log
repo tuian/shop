@@ -1,0 +1,9 @@
+[2015-08-07 16:24:32] /admin/index.php?act=lottery&op=index ( act=lottery&op=index ) 
+ERR: Db Error: Table 'bdm127370614_db.sysc_Array' doesn't exist
+SELECT COUNT(*) as `count` FROM `sysc_Array` as `Array` 
+[2015-08-07 18:00:07] /admin/index.php?act=lottery&op=edit_awards&awards_id=1 ( act=lottery&op=edit_awards ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `sysc_lottery_awards` as `lottery_awards`  WHERE  awards_id=Array
+[2015-08-07 18:00:23] /admin/index.php?act=lottery&op=edit_awards&awards_id=2 ( act=lottery&op=edit_awards ) 
+ERR: Db Error: Unknown column 'Array' in 'where clause'
+SELECT * FROM `sysc_lottery_awards` as `lottery_awards`  WHERE  awards_id=Array

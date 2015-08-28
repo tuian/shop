@@ -1,0 +1,330 @@
+[2014-12-27 13:56:44] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Unknown column 'store_id' in 'where clause'
+delete from `shopnc_upload` where store_id>0
+[2014-12-27 13:56:44] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_spec' doesn't exist
+TRUNCATE TABLE `shopnc_goods_spec`
+[2014-12-27 13:56:44] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_group' doesn't exist
+TRUNCATE TABLE `shopnc_goods_group`
+[2014-12-27 13:56:44] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_order_address' doesn't exist
+TRUNCATE TABLE `shopnc_order_address`
+[2014-12-27 13:56:44] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_recommend_goods' doesn't exist
+TRUNCATE TABLE `shopnc_recommend_goods`
+[2014-12-27 13:56:44] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_class_goods' doesn't exist
+TRUNCATE TABLE `shopnc_store_class_goods`
+[2014-12-27 13:56:44] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_partner' doesn't exist
+TRUNCATE TABLE `shopnc_store_partner`
+[2014-12-27 13:56:44] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_gradelog' doesn't exist
+TRUNCATE TABLE `shopnc_store_gradelog`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_cash' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_cash`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_log' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_log`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_recharge' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_recharge`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_map' doesn't exist
+TRUNCATE TABLE `shopnc_map`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_refund_log' doesn't exist
+TRUNCATE TABLE `shopnc_refund_log`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return' doesn't exist
+TRUNCATE TABLE `shopnc_return`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return_goods' doesn't exist
+TRUNCATE TABLE `shopnc_return_goods`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_coupon' doesn't exist
+TRUNCATE TABLE `shopnc_coupon`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_buy' doesn't exist
+TRUNCATE TABLE `shopnc_gold_buy`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_log' doesn't exist
+TRUNCATE TABLE `shopnc_gold_log`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_glodlog' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_glodlog`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_goods' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_goods`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_mansong_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_mansong_apply`
+[2014-12-27 13:56:45] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_xianshi_apply`
+[2014-12-27 13:59:30] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Unknown column 'store_id' in 'where clause'
+delete from `shopnc_upload` where store_id>0
+[2014-12-27 13:59:30] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_spec' doesn't exist
+TRUNCATE TABLE `shopnc_goods_spec`
+[2014-12-27 13:59:30] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_group' doesn't exist
+TRUNCATE TABLE `shopnc_goods_group`
+[2014-12-27 13:59:30] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_order_address' doesn't exist
+TRUNCATE TABLE `shopnc_order_address`
+[2014-12-27 13:59:30] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_recommend_goods' doesn't exist
+TRUNCATE TABLE `shopnc_recommend_goods`
+[2014-12-27 13:59:30] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_class_goods' doesn't exist
+TRUNCATE TABLE `shopnc_store_class_goods`
+[2014-12-27 13:59:30] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_partner' doesn't exist
+TRUNCATE TABLE `shopnc_store_partner`
+[2014-12-27 13:59:30] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_gradelog' doesn't exist
+TRUNCATE TABLE `shopnc_store_gradelog`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_cash' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_cash`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_log' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_log`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_recharge' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_recharge`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_map' doesn't exist
+TRUNCATE TABLE `shopnc_map`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_refund_log' doesn't exist
+TRUNCATE TABLE `shopnc_refund_log`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return' doesn't exist
+TRUNCATE TABLE `shopnc_return`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return_goods' doesn't exist
+TRUNCATE TABLE `shopnc_return_goods`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_coupon' doesn't exist
+TRUNCATE TABLE `shopnc_coupon`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_buy' doesn't exist
+TRUNCATE TABLE `shopnc_gold_buy`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_log' doesn't exist
+TRUNCATE TABLE `shopnc_gold_log`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_glodlog' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_glodlog`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_goods' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_goods`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_mansong_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_mansong_apply`
+[2014-12-27 13:59:31] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_xianshi_apply`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Unknown column 'store_id' in 'where clause'
+delete from `shopnc_upload` where store_id>0
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_spec' doesn't exist
+TRUNCATE TABLE `shopnc_goods_spec`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_group' doesn't exist
+TRUNCATE TABLE `shopnc_goods_group`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_order_address' doesn't exist
+TRUNCATE TABLE `shopnc_order_address`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_recommend_goods' doesn't exist
+TRUNCATE TABLE `shopnc_recommend_goods`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_class_goods' doesn't exist
+TRUNCATE TABLE `shopnc_store_class_goods`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_partner' doesn't exist
+TRUNCATE TABLE `shopnc_store_partner`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_gradelog' doesn't exist
+TRUNCATE TABLE `shopnc_store_gradelog`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_cash' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_cash`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_log' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_log`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_recharge' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_recharge`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_map' doesn't exist
+TRUNCATE TABLE `shopnc_map`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_refund_log' doesn't exist
+TRUNCATE TABLE `shopnc_refund_log`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return' doesn't exist
+TRUNCATE TABLE `shopnc_return`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return_goods' doesn't exist
+TRUNCATE TABLE `shopnc_return_goods`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_coupon' doesn't exist
+TRUNCATE TABLE `shopnc_coupon`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_buy' doesn't exist
+TRUNCATE TABLE `shopnc_gold_buy`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_log' doesn't exist
+TRUNCATE TABLE `shopnc_gold_log`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_glodlog' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_glodlog`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_goods' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_goods`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_mansong_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_mansong_apply`
+[2014-12-27 14:23:50] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_xianshi_apply`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Unknown column 'store_id' in 'where clause'
+delete from `shopnc_upload` where store_id>0
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_spec' doesn't exist
+TRUNCATE TABLE `shopnc_goods_spec`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_group' doesn't exist
+TRUNCATE TABLE `shopnc_goods_group`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_order_address' doesn't exist
+TRUNCATE TABLE `shopnc_order_address`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_recommend_goods' doesn't exist
+TRUNCATE TABLE `shopnc_recommend_goods`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_class_goods' doesn't exist
+TRUNCATE TABLE `shopnc_store_class_goods`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_partner' doesn't exist
+TRUNCATE TABLE `shopnc_store_partner`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_gradelog' doesn't exist
+TRUNCATE TABLE `shopnc_store_gradelog`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_cash' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_cash`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_log' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_log`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_recharge' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_recharge`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_map' doesn't exist
+TRUNCATE TABLE `shopnc_map`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_refund_log' doesn't exist
+TRUNCATE TABLE `shopnc_refund_log`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return' doesn't exist
+TRUNCATE TABLE `shopnc_return`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return_goods' doesn't exist
+TRUNCATE TABLE `shopnc_return_goods`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_coupon' doesn't exist
+TRUNCATE TABLE `shopnc_coupon`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_buy' doesn't exist
+TRUNCATE TABLE `shopnc_gold_buy`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_log' doesn't exist
+TRUNCATE TABLE `shopnc_gold_log`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_glodlog' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_glodlog`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_goods' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_goods`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_mansong_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_mansong_apply`
+[2014-12-27 14:36:04] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_xianshi_apply`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Unknown column 'store_id' in 'where clause'
+delete from `shopnc_upload` where store_id>0
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_spec' doesn't exist
+TRUNCATE TABLE `shopnc_goods_spec`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_goods_group' doesn't exist
+TRUNCATE TABLE `shopnc_goods_group`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_order_address' doesn't exist
+TRUNCATE TABLE `shopnc_order_address`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_recommend_goods' doesn't exist
+TRUNCATE TABLE `shopnc_recommend_goods`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_class_goods' doesn't exist
+TRUNCATE TABLE `shopnc_store_class_goods`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_partner' doesn't exist
+TRUNCATE TABLE `shopnc_store_partner`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_store_gradelog' doesn't exist
+TRUNCATE TABLE `shopnc_store_gradelog`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_cash' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_cash`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_log' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_log`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_predeposit_recharge' doesn't exist
+TRUNCATE TABLE `shopnc_predeposit_recharge`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_map' doesn't exist
+TRUNCATE TABLE `shopnc_map`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_refund_log' doesn't exist
+TRUNCATE TABLE `shopnc_refund_log`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return' doesn't exist
+TRUNCATE TABLE `shopnc_return`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_return_goods' doesn't exist
+TRUNCATE TABLE `shopnc_return_goods`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_coupon' doesn't exist
+TRUNCATE TABLE `shopnc_coupon`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_buy' doesn't exist
+TRUNCATE TABLE `shopnc_gold_buy`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_gold_log' doesn't exist
+TRUNCATE TABLE `shopnc_gold_log`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_glodlog' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_glodlog`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_ztc_goods' doesn't exist
+TRUNCATE TABLE `shopnc_ztc_goods`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_mansong_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_mansong_apply`
+[2014-12-27 14:38:18] /admin/index.php?act=account&op=member_clear ( act=account&op=member_clear ) 
+ERR: Db Error: Table 'demo.shopnc_p_xianshi_apply' doesn't exist
+TRUNCATE TABLE `shopnc_p_xianshi_apply`

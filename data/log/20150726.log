@@ -1,0 +1,138 @@
+[2015-07-26 01:09:07] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Column 'mobile_body' cannot be null
+INSERT  INTO `sysc_goods_common` (goods_name,goods_jingle,gc_id,gc_id_1,gc_id_2,gc_id_3,gc_name,brand_id,brand_name,type_id,goods_image,goods_price,goods_marketprice,goods_costprice,goods_discount,goods_serial,goods_storage_alarm,goods_attr,goods_body,mobile_body,goods_commend,goods_state,goods_addtime,goods_selltime,goods_verify,store_id,store_name,spec_name,spec_value,goods_vat,areaid_1,areaid_2,transport_id,transport_title,goods_freight,goods_stcids,plateid_top,plateid_bottom,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,appoint_satedate,is_presell,presell_deliverdate,is_own_shop) VALUES ('巴厘岛4晚6半自助游','升级海边国际五星酒店，送阿勇河漂流，特色安排巴厘岛HIGH 浪乐园','774','772','774','0','精品旅游 &gt;国外线路','','','0','2015/07/26/8_04911877763234013.jpg','5999','6999','0','85','','0','N;','<img src=\"src\" alt=\"image\" /> 
+<div class=\"puzzle puzzle2 europe clearfix\">
+	<div class=\"inner\">
+		<div class=\"img-wrap\">
+			<img src=\"http://pic3.40017.cn/line/admin/2015/04/22/15/b1zuFj_450x250_00.jpg\" alt=\"image\" />
+		</div>
+		<div class=\"title-wrap\">
+			<span class=\"title\">行程亮点</span>
+			<p class=\"desc\">
+				【超值住宿】：2晚精品4星酒店+ 2晚海边国际5星。<br />
+【特色安排】：首家推出巴厘岛HIGH 浪乐园，让您全身体验！
+			</p>
+		</div>
+	</div>
+	<div class=\"inner last\">
+		<div class=\"img-wrap\">
+			<img src=\"http://pic3.40017.cn/line/admin/2015/04/22/15/ka0opv_450x250_00.jpg\" alt=\"image\" />
+		</div>
+		<div class=\"title-wrap\">
+			<span class=\"title\">景点游览</span>
+			<p class=\"desc\">
+				【经典行程】：南湾沙滩俱乐部+玻璃底船+海龟岛 、海神庙、 乌布皇宫+乌布传统市场等。<br />
+【超嗨漂流】：玩嗨阿勇河漂流2天，还有2天自由活动时间。<br />
+【璀璨美食】：中华料理、金巴兰海滩BBQ 。
+			</p>
+		</div>
+	</div>
+</div>
+<div class=\"puzzle puzzle3 europe\">
+	<ul class=\"clearfix\">
+		<li>
+			<div>
+				<img src=\"http://pic3.40017.cn/line/admin/2015/06/04/09/V7lNBX_600x400_00.png\" alt=\"image\" />
+			</div>
+		</li>
+		<li>
+			<div>
+				<img src=\"http://pic3.40017.cn/line/admin/2015/04/22/15/uXe1sI_600x400_00.jpg\" alt=\"image\" />
+			</div>
+		</li>
+		<li>
+			<div>
+				<img src=\"http://pic3.40017.cn/line/admin/2015/03/23/16/4qJxS9_600x400_00.jpg\" alt=\"image\" />
+			</div>
+		</li>
+	</ul>
+</div>
+<div class=\"puzzle puzzle4 europe clearfix\">
+	<div class=\"inner\">
+		<div class=\"img-wrap\">
+			<img src=\"http://pic3.40017.cn/line/admin/2015/06/05/17/5Si5fP_640x360_00.jpg\" alt=\"image\" />
+		</div>
+		<div class=\"title-wrap\">
+			<span class=\"title\">巴厘岛温馨提示</span>
+			<p class=\"desc\">
+				★在巴厘岛要带好防晒霜注意防晒。 <br />
+★通讯：当地的SIM卡既方便又便宜，种类很多，SimPati是当地最大的电信公司，信号最好。<br />
+★电压：巴厘岛电压和插座：220V，插座通常为两个圆孔或三个扁平孔，请自备多用插头转换器。<br />
+★酒店用品：一般酒店都不提供牙刷、牙膏、洗发护发液、拖鞋，同时也是为了个人卫生清洁，建议�%</p></div></div></div>',NULL,'0','0','1437844147','0','1','8','虚拟城','N;','N;','0','0','0','0',NULL,'0','','','','0','0','0','0','0','0','','0','','1')
+[2015-07-26 01:15:26] /shop/index.php?act=store_goods_add&op=save_goods ( act=store_goods_add&op=save_goods ) 
+ERR: Db Error: Column 'mobile_body' cannot be null
+INSERT  INTO `sysc_goods_common` (goods_name,goods_jingle,gc_id,gc_id_1,gc_id_2,gc_id_3,gc_name,brand_id,brand_name,type_id,goods_image,goods_price,goods_marketprice,goods_costprice,goods_discount,goods_serial,goods_storage_alarm,goods_attr,goods_body,mobile_body,goods_commend,goods_state,goods_addtime,goods_selltime,goods_verify,store_id,store_name,spec_name,spec_value,goods_vat,areaid_1,areaid_2,transport_id,transport_title,goods_freight,goods_stcids,plateid_top,plateid_bottom,is_virtual,virtual_indate,virtual_limit,virtual_invalid_refund,is_fcode,is_appoint,appoint_satedate,is_presell,presell_deliverdate,is_own_shop) VALUES ('巴厘岛4晚6半自助游','升级海边国际五星酒店，送阿勇河漂流，特色安排巴厘岛HIGH 浪乐园','774','772','774','0','精品旅游 &gt;国外线路','','','0','2015/07/26/8_04911882157305507.jpg','5999','6999','0','85','','0','N;','<img src=\"src\" alt=\"image\" /> 
+<div class=\"puzzle puzzle2 europe clearfix\">
+	<div class=\"inner\">
+		<div class=\"img-wrap\">
+			<img src=\"http://pic3.40017.cn/line/admin/2015/04/22/15/b1zuFj_450x250_00.jpg\" alt=\"image\" />
+		</div>
+		<div class=\"title-wrap\">
+			<span class=\"title\">行程亮点</span>
+			<p class=\"desc\">
+				【超值住宿】：2晚精品4星酒店+ 2晚海边国际5星。<br />
+【特色安排】：首家推出巴厘岛HIGH 浪乐园，让您全身体验！
+			</p>
+		</div>
+	</div>
+	<div class=\"inner last\">
+		<div class=\"img-wrap\">
+			<img src=\"http://pic3.40017.cn/line/admin/2015/04/22/15/ka0opv_450x250_00.jpg\" alt=\"image\" />
+		</div>
+		<div class=\"title-wrap\">
+			<span class=\"title\">景点游览</span>
+			<p class=\"desc\">
+				【经典行程】：南湾沙滩俱乐部+玻璃底船+海龟岛 、海神庙、 乌布皇宫+乌布传统市场等。<br />
+【超嗨漂流】：玩嗨阿勇河漂流2天，还有2天自由活动时间。<br />
+【璀璨美食】：中华料理、金巴兰海滩BBQ 。
+			</p>
+		</div>
+	</div>
+</div>
+<div class=\"puzzle puzzle3 europe\">
+	<ul class=\"clearfix\">
+		<li>
+			<div>
+				<img src=\"http://pic3.40017.cn/line/admin/2015/06/04/09/V7lNBX_600x400_00.png\" alt=\"image\" />
+			</div>
+		</li>
+		<li>
+			<div>
+				<img src=\"http://pic3.40017.cn/line/admin/2015/04/22/15/uXe1sI_600x400_00.jpg\" alt=\"image\" />
+			</div>
+		</li>
+		<li>
+			<div>
+				<img src=\"http://pic3.40017.cn/line/admin/2015/03/23/16/4qJxS9_600x400_00.jpg\" alt=\"image\" />
+			</div>
+		</li>
+	</ul>
+</div>
+<div class=\"puzzle puzzle4 europe clearfix\">
+	<div class=\"inner\">
+		<div class=\"img-wrap\">
+			<img src=\"http://pic3.40017.cn/line/admin/2015/06/05/17/5Si5fP_640x360_00.jpg\" alt=\"image\" />
+		</div>
+		<div class=\"title-wrap\">
+			<span class=\"title\">巴厘岛温馨提示</span>
+			<p class=\"desc\">
+				★在巴厘岛要带好防晒霜注意防晒。 <br />
+★通讯：当地的SIM卡既方便又便宜，种类很多，SimPati是当地最大的电信公司，信号最好。<br />
+★电压：巴厘岛电压和插座：220V，插座通常为两个圆孔或三个扁平孔，请自备多用插头转换器。<br />
+★酒店用品：一般酒店都不提供牙刷、牙膏、洗发护发液、拖鞋，同时也是为了个人卫生清洁，建议自己携带。 <br />
+★货币：卢比，又称印尼盾，国际机场、酒店、合法商店均可兑换。<br />
+★时差：巴厘岛和中国没有时差，巴厘岛首都雅加达与北京时差1小时。
+			</p>
+		</div>
+	</div>
+</div>
+<div class=\"puzzle puzzle5 europe clearfix\">
+	<div class=\"inner\">
+		<div class=\"img-wrap\">
+			<img src=\"http://pic3.40017.cn/line/admin/2015/04/22/15/iJiCaA_640x360_00.jpg\" alt=\"image\" />
+		</div>
+		<div class=\"title-wrap\">
+			<span class=\"title\">旅游小贴士</span>
+			<p class=\"desc\">
+				1、签证：护照原件（6个月有效期范围内）。<br />
+2、时差：�%B</p></div></div></div>',NULL,'0','0','1437844526','0','1','8','虚拟城','N;','N;','0','0','0','0',NULL,'0','','','','0','0','0','0','0','0','','0','','1')
