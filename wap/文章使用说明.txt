@@ -1,0 +1,12 @@
+使用方法，在适当的位置增加类似链接：
+
+1）查看全部类别
+http://域名/wap/tmpl/article_class.html
+
+2）
+查看某个类别文档：
+http://域名/wap/tmpl/article_list.html?ac_id=7
+
+3）
+查看某个具体文档：
+http://域名/wap/tmpl/article_show.html?article_id=22
