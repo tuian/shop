@@ -1,0 +1,136 @@
+<script type="text/javascript" src="http://byu1659920001.my3w.com/data/resource/js/jquery.nc_slider.js" charset="utf-8"></script>
+<script type="text/javascript">
+//图片延迟加载
+(function($) {
+    $.fn.nc_lazyload_init = function() {
+        this.each(function() {
+            $(this).after($(this).val().replace(/src=/gi, 'data-src='));
+        }).remove();
+    };
+})(jQuery);
+
+//图片延迟加载
+(function($) {
+    $.fn.nc_lazyload = function() {
+        var lazy_items = [];
+        this.each(function() {
+            if($(this).attr("data-src") !== undefined){
+                var lazy_item = {
+                    object: $(this),
+                    url: $(this).attr("data-src")
+                };
+                lazy_items.push(lazy_item);
+            }
+        });
+
+        var load_img = function() {
+            var window_height = $(window).height();
+            var scroll_top = $(window).scrollTop();
+
+            $.each(lazy_items, function(i, lazy_item) {
+                if(lazy_item.object) {
+                    item_top = lazy_item.object.offset().top - scroll_top;
+                    if(item_top >= 0 && item_top < window_height) {
+                        if(lazy_item.url) {
+                            lazy_item.object.attr("src",lazy_item.url);
+                        }
+                        lazy_item.object = null;
+                    }
+                }
+            });
+        };
+        load_img();
+        $(window).bind("scroll", load_img);
+    };
+})(jQuery);
+</script>
+<div id="store_decoration_area" class="store-decoration-page">
+<textarea class="lazyload_container" rows="10" cols="30" style="display:none;">
+            <div id="block_2" data-block-id="2" nctype="store_decoration_block" class="ncsc-decration-block store-decoration-block-1  tip" title="">
+    <div nctype="store_decoration_block_content" class="ncsc-decration-block-content store-decoration-block-1-content">
+        <div nctype="store_decoration_block_module" class="store-decoration-block-1-module">
+                        <ul nctype="store_decoration_slide" style="height:500px; overflow:hidden;">
+                <li data-image-name="2_04717929540696812.jpg" data-image-url="http://byu1659920001.my3w.com/data/upload/shop/store/decoration/2/2_04717929540696812.jpg" data-image-link="http://www.phphos.com/" style="height:500px; background: url(http://byu1659920001.my3w.com/data/upload/shop/store/decoration/2/2_04717929540696812.jpg) no-repeat scroll center top transparent;">
+    <a href="http://www.phphos.com/" target="_blank" style="display:block;width:100%;height:100%;"></a>
+    </li>
+        </ul>
+                    </div>
+            </div>
+    </div>
+        <div id="block_3" data-block-id="3" nctype="store_decoration_block" class="ncsc-decration-block store-decoration-block-1  tip" title="">
+    <div nctype="store_decoration_block_content" class="ncsc-decration-block-content store-decoration-block-1-content">
+        <div nctype="store_decoration_block_module" class="store-decoration-block-1-module">
+                        
+<ul class="goods-list">
+    <li nctype="goods_item" data-goods-id="100011" data-goods-name="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表" data-goods-price="999.00"  data-goods-image="2014/12/12/2_04717044522655699.jpg">
+        <div class="goods-thumb"> <a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100011" target="_blank" title="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表"> <img src="http://byu1659920001.my3w.com/data/upload/shop/store/goods/2/2014/12/12/2_04717044522655699_240.jpg"/ alt="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100011" target="_blank" title="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表">Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表</a></dt>
+      <dd>&yen;999.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100013" data-goods-name="果壳智能手表-智能表概念系炒作 智能表味同鸡肋" data-goods-price="999.00"  data-goods-image="2014/12/13/2_04717938410698576.jpg">
+        <div class="goods-thumb"> <a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100013" target="_blank" title="果壳智能手表-智能表概念系炒作 智能表味同鸡肋"> <img src="http://byu1659920001.my3w.com/data/upload/shop/store/goods/2/2014/12/13/2_04717938410698576_240.jpg"/ alt="果壳智能手表-智能表概念系炒作 智能表味同鸡肋"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100013" target="_blank" title="果壳智能手表-智能表概念系炒作 智能表味同鸡肋">果壳智能手表-智能表概念系炒作 智能表味同鸡肋</a></dt>
+      <dd>&yen;999.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100011" data-goods-name="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表" data-goods-price="999.00"  data-goods-image="2014/12/12/2_04717044522655699.jpg">
+        <div class="goods-thumb"> <a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100011" target="_blank" title="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表"> <img src="http://byu1659920001.my3w.com/data/upload/shop/store/goods/2/2014/12/12/2_04717044522655699_240.jpg"/ alt="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100011" target="_blank" title="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表">Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表</a></dt>
+      <dd>&yen;999.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100013" data-goods-name="果壳智能手表-智能表概念系炒作 智能表味同鸡肋" data-goods-price="999.00"  data-goods-image="2014/12/13/2_04717938410698576.jpg">
+        <div class="goods-thumb"> <a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100013" target="_blank" title="果壳智能手表-智能表概念系炒作 智能表味同鸡肋"> <img src="http://byu1659920001.my3w.com/data/upload/shop/store/goods/2/2014/12/13/2_04717938410698576_240.jpg"/ alt="果壳智能手表-智能表概念系炒作 智能表味同鸡肋"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100013" target="_blank" title="果壳智能手表-智能表概念系炒作 智能表味同鸡肋">果壳智能手表-智能表概念系炒作 智能表味同鸡肋</a></dt>
+      <dd>&yen;999.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100011" data-goods-name="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表" data-goods-price="999.00"  data-goods-image="2014/12/12/2_04717044522655699.jpg">
+        <div class="goods-thumb"> <a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100011" target="_blank" title="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表"> <img src="http://byu1659920001.my3w.com/data/upload/shop/store/goods/2/2014/12/12/2_04717044522655699_240.jpg"/ alt="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100011" target="_blank" title="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表">Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表</a></dt>
+      <dd>&yen;999.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100013" data-goods-name="果壳智能手表-智能表概念系炒作 智能表味同鸡肋" data-goods-price="999.00"  data-goods-image="2014/12/13/2_04717938410698576.jpg">
+        <div class="goods-thumb"> <a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100013" target="_blank" title="果壳智能手表-智能表概念系炒作 智能表味同鸡肋"> <img src="http://byu1659920001.my3w.com/data/upload/shop/store/goods/2/2014/12/13/2_04717938410698576_240.jpg"/ alt="果壳智能手表-智能表概念系炒作 智能表味同鸡肋"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100013" target="_blank" title="果壳智能手表-智能表概念系炒作 智能表味同鸡肋">果壳智能手表-智能表概念系炒作 智能表味同鸡肋</a></dt>
+      <dd>&yen;999.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100011" data-goods-name="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表" data-goods-price="999.00"  data-goods-image="2014/12/12/2_04717044522655699.jpg">
+        <div class="goods-thumb"> <a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100011" target="_blank" title="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表"> <img src="http://byu1659920001.my3w.com/data/upload/shop/store/goods/2/2014/12/12/2_04717044522655699_240.jpg"/ alt="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100011" target="_blank" title="Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表">Sony/索尼 SW2 smartwatch2 防水 NFC 蓝牙 智能手表</a></dt>
+      <dd>&yen;999.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100013" data-goods-name="果壳智能手表-智能表概念系炒作 智能表味同鸡肋" data-goods-price="999.00"  data-goods-image="2014/12/13/2_04717938410698576.jpg">
+        <div class="goods-thumb"> <a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100013" target="_blank" title="果壳智能手表-智能表概念系炒作 智能表味同鸡肋"> <img src="http://byu1659920001.my3w.com/data/upload/shop/store/goods/2/2014/12/13/2_04717938410698576_240.jpg"/ alt="果壳智能手表-智能表概念系炒作 智能表味同鸡肋"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://byu1659920001.my3w.com/shop/index.php?act=goods&op=index&goods_id=100013" target="_blank" title="果壳智能手表-智能表概念系炒作 智能表味同鸡肋">果壳智能手表-智能表概念系炒作 智能表味同鸡肋</a></dt>
+      <dd>&yen;999.00</dd>
+    </dl>
+      </li>
+  </ul>
+                    </div>
+            </div>
+    </div>
+        </textarea>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        //图片延迟加载
+        $(".lazyload_container").nc_lazyload_init();
+        $("img").nc_lazyload();
+
+        //幻灯片
+        $('[nctype="store_decoration_slide"]').nc_slider();
+    });
+</script>
