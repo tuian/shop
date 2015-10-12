@@ -1,0 +1,138 @@
+<script type="text/javascript" src="http://demo.phphos.com/data/resource/js/jquery.nc_slider.js" charset="utf-8"></script>
+<script type="text/javascript">
+//图片延迟加载
+(function($) {
+    $.fn.nc_lazyload_init = function() {
+        this.each(function() {
+            $(this).after($(this).val().replace(/src=/gi, 'data-src='));
+        }).remove();
+    };
+})(jQuery);
+
+//图片延迟加载
+(function($) {
+    $.fn.nc_lazyload = function() {
+        var lazy_items = [];
+        this.each(function() {
+            if($(this).attr("data-src") !== undefined){
+                var lazy_item = {
+                    object: $(this),
+                    url: $(this).attr("data-src")
+                };
+                lazy_items.push(lazy_item);
+            }
+        });
+
+        var load_img = function() {
+            var window_height = $(window).height();
+            var scroll_top = $(window).scrollTop();
+
+            $.each(lazy_items, function(i, lazy_item) {
+                if(lazy_item.object) {
+                    item_top = lazy_item.object.offset().top - scroll_top;
+                    if(item_top >= 0 && item_top < window_height) {
+                        if(lazy_item.url) {
+                            lazy_item.object.attr("src",lazy_item.url);
+                        }
+                        lazy_item.object = null;
+                    }
+                }
+            });
+        };
+        load_img();
+        $(window).bind("scroll", load_img);
+    };
+})(jQuery);
+</script>
+<div id="store_decoration_area" class="store-decoration-page">
+<textarea class="lazyload_container" rows="10" cols="30" style="display:none;">
+            <div id="block_1" data-block-id="1" nctype="store_decoration_block" class="ncsc-decration-block store-decoration-block-1  tip" title="">
+    <div nctype="store_decoration_block_content" class="ncsc-decration-block-content store-decoration-block-1-content">
+        <div nctype="store_decoration_block_module" class="store-decoration-block-1-module">
+                        <div>
+            <img data-image-name="1_04717951618811492.jpg" usemap="#1_04717951618811492jpg" src="http://demo.phphos.com/data/upload/shop/store/decoration/1/1_04717951618811492.jpg" alt="1_04717951618811492.jpg">
+    <map name="1_04717951618811492jpg" id="1_04717951618811492jpg">
+                        <area target="_blank" shape="rect" coords="89,34,233,126" href ="http://www.baidu.com" alt="http://www.baidu.com" />
+                    </map>
+</div>
+
+                    </div>
+            </div>
+    </div>
+        <div id="block_4" data-block-id="4" nctype="store_decoration_block" class="ncsc-decration-block store-decoration-block-1  tip" title="">
+    <div nctype="store_decoration_block_content" class="ncsc-decration-block-content store-decoration-block-1-content">
+        <div nctype="store_decoration_block_module" class="store-decoration-block-1-module">
+                        
+<ul class="goods-list">
+    <li nctype="goods_item" data-goods-id="100008" data-goods-name="南非进口红心西柚8个 葡萄柚文旦柚子 新鲜水果" data-goods-price="20.00"  data-goods-image="2014/12/06/1_04711960312804252.jpg">
+        <div class="goods-thumb"> <a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100008" target="_blank" title="南非进口红心西柚8个 葡萄柚文旦柚子 新鲜水果"> <img src="http://demo.phphos.com/data/upload/shop/store/goods/1/2014/12/06/1_04711960312804252_240.jpg"/ alt="南非进口红心西柚8个 葡萄柚文旦柚子 新鲜水果"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100008" target="_blank" title="南非进口红心西柚8个 葡萄柚文旦柚子 新鲜水果">南非进口红心西柚8个 葡萄柚文旦柚子 新鲜水果</a></dt>
+      <dd>&yen;20.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100009" data-goods-name="新鲜水果攀枝花芒果 大凯特芒果 现摘现发" data-goods-price="50.00"  data-goods-image="2014/12/06/1_04711961033110865.jpg">
+        <div class="goods-thumb"> <a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100009" target="_blank" title="新鲜水果攀枝花芒果 大凯特芒果 现摘现发"> <img src="http://demo.phphos.com/data/upload/shop/store/goods/1/2014/12/06/1_04711961033110865_240.jpg"/ alt="新鲜水果攀枝花芒果 大凯特芒果 现摘现发"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100009" target="_blank" title="新鲜水果攀枝花芒果 大凯特芒果 现摘现发">新鲜水果攀枝花芒果 大凯特芒果 现摘现发</a></dt>
+      <dd>&yen;50.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100006" data-goods-name="新鲜水果 姚庄黄桃5斤装 包邮" data-goods-price="30.00"  data-goods-image="2014/12/06/1_04711957773587944.jpg">
+        <div class="goods-thumb"> <a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100006" target="_blank" title="新鲜水果 姚庄黄桃5斤装 包邮"> <img src="http://demo.phphos.com/data/upload/shop/store/goods/1/2014/12/06/1_04711957773587944_240.jpg"/ alt="新鲜水果 姚庄黄桃5斤装 包邮"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100006" target="_blank" title="新鲜水果 姚庄黄桃5斤装 包邮">新鲜水果 姚庄黄桃5斤装 包邮</a></dt>
+      <dd>&yen;30.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100005" data-goods-name="牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果" data-goods-price="100.00"  data-goods-image="2014/12/06/1_04711957164058838.jpg">
+        <div class="goods-thumb"> <a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100005" target="_blank" title="牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果"> <img src="http://demo.phphos.com/data/upload/shop/store/goods/1/2014/12/06/1_04711957164058838_240.jpg"/ alt="牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100005" target="_blank" title="牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果">牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果</a></dt>
+      <dd>&yen;100.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100007" data-goods-name="越南白心火龙果5斤装 白肉火龙果进口新鲜水果" data-goods-price="30.00"  data-goods-image="2014/12/06/1_04711959716397847.jpg">
+        <div class="goods-thumb"> <a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100007" target="_blank" title="越南白心火龙果5斤装 白肉火龙果进口新鲜水果"> <img src="http://demo.phphos.com/data/upload/shop/store/goods/1/2014/12/06/1_04711959716397847_240.jpg"/ alt="越南白心火龙果5斤装 白肉火龙果进口新鲜水果"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100007" target="_blank" title="越南白心火龙果5斤装 白肉火龙果进口新鲜水果">越南白心火龙果5斤装 白肉火龙果进口新鲜水果</a></dt>
+      <dd>&yen;30.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100010" data-goods-name="正宗无锡阳山水蜜桃 新鲜水果 桃子 多汁水蜜桃" data-goods-price="30.00"  data-goods-image="2014/12/06/1_04711962169515598.jpg">
+        <div class="goods-thumb"> <a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100010" target="_blank" title="正宗无锡阳山水蜜桃 新鲜水果 桃子 多汁水蜜桃"> <img src="http://demo.phphos.com/data/upload/shop/store/goods/1/2014/12/06/1_04711962169515598_240.jpg"/ alt="正宗无锡阳山水蜜桃 新鲜水果 桃子 多汁水蜜桃"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100010" target="_blank" title="正宗无锡阳山水蜜桃 新鲜水果 桃子 多汁水蜜桃">正宗无锡阳山水蜜桃 新鲜水果 桃子 多汁水蜜桃</a></dt>
+      <dd>&yen;30.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100006" data-goods-name="新鲜水果 姚庄黄桃5斤装 包邮" data-goods-price="30.00"  data-goods-image="2014/12/06/1_04711957773587944.jpg">
+        <div class="goods-thumb"> <a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100006" target="_blank" title="新鲜水果 姚庄黄桃5斤装 包邮"> <img src="http://demo.phphos.com/data/upload/shop/store/goods/1/2014/12/06/1_04711957773587944_240.jpg"/ alt="新鲜水果 姚庄黄桃5斤装 包邮"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100006" target="_blank" title="新鲜水果 姚庄黄桃5斤装 包邮">新鲜水果 姚庄黄桃5斤装 包邮</a></dt>
+      <dd>&yen;30.00</dd>
+    </dl>
+      </li>
+    <li nctype="goods_item" data-goods-id="100005" data-goods-name="牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果" data-goods-price="100.00"  data-goods-image="2014/12/06/1_04711957164058838.jpg">
+        <div class="goods-thumb"> <a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100005" target="_blank" title="牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果"> <img src="http://demo.phphos.com/data/upload/shop/store/goods/1/2014/12/06/1_04711957164058838_240.jpg"/ alt="牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果"> </a> </div>
+    <dl class="goods-info">
+      <dt><a href="http://demo.phphos.com/shop/index.php?act=goods&op=index&goods_id=100005" target="_blank" title="牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果">牛油果 正宗墨西哥鳄梨牛油果 进口水果 6个装特大果</a></dt>
+      <dd>&yen;100.00</dd>
+    </dl>
+      </li>
+  </ul>
+                    </div>
+            </div>
+    </div>
+        </textarea>
+</div>
+<script type="text/javascript">
+    $(document).ready(function(){
+        //图片延迟加载
+        $(".lazyload_container").nc_lazyload_init();
+        $("img").nc_lazyload();
+
+        //幻灯片
+        $('[nctype="store_decoration_slide"]').nc_slider();
+    });
+</script>
